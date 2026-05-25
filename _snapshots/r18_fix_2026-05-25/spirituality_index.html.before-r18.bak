@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spirituality · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="The spirituality of the Brothers of Saint Gabriel — Marian devotion in the tradition of Saint Louis-Marie de Montfort, the liturgical rhythm of the Province, daily prayer, and retreats.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script defer src="/assets/js/rome-cal.js"></script>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="brand">Brothers of Saint Gabriel<small>THAILAND PROVINCE</small></a>
+  <div class="links">
+    <a href="/">Home</a><a href="/about/">About</a><a href="/leadership/">Leadership</a><a href="/brothers/">Brothers</a><a href="/vocations/">Vocations</a><a href="/spirituality/" class="active">Spirituality</a><a href="/news/">News</a><a href="/in-memoriam/">In Memoriam</a><a href="/connect/">Connect</a>
+  </div>
+</nav>
+
+<section class="section">
+  <h2>OUR SPIRITUALITY</h2>
+  <div class="line"></div>
+  <p class="lede">The Brothers of Saint Gabriel draw their spiritual life from the legacy of <strong>Saint Louis-Marie de Montfort</strong> &mdash; a spirituality grounded in <em>God Alone</em>, lived through Mary, and expressed in the daily rhythm of the Religious community.</p>
+
+  <div class="card-grid" style="margin-top:30px">
+    <a class="card" href="marian.html">
+      <h3>MARIAN DEVOTION</h3>
+      <div class="meta">Through Mary · to Christ</div>
+      <p>The heart of Montfortian spirituality &mdash; <em>True Devotion</em>, the <em>Secret of Mary</em>, and the practice of consecration to Jesus through Mary.</p>
+    </a>
+    <a class="card" href="calendar.html">
+      <h3>LITURGICAL CALENDAR</h3>
+      <div class="meta">Feasts of the Province</div>
+      <p>The principal feasts the Brothers keep together &mdash; Saint Louis-Marie de Montfort, Saint Gabriel Possenti, and the great seasons of the Church year.</p>
+    </a>
+    <a class="card" href="prayer.html">
+      <h3>DAILY PRAYER</h3>
+      <div class="meta">Rhythm of the community</div>
+      <p>The pattern of daily prayer kept in each community &mdash; Mass, Liturgy of the Hours, Rosary, and personal meditation.</p>
+    </a>
+    <a class="card" href="retreats.html">
+      <h3>RETREATS &amp; RECOLLECTIONS</h3>
+      <div class="meta">Times set apart</div>
+      <p>The annual retreats and monthly recollections that punctuate the year &mdash; for the Brothers personally and for those they accompany.</p>
+    </a>
+  </div>
+
+  <blockquote class="callout" style="margin-top:40px">
+    Our spirituality is not an accomplishment but a slow yielding &mdash; to Christ, through Mary, for the sake of those entrusted to our mission. <em>God Alone.</em>
+  </blockquote>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div><h4>BROTHERS OF SAINT GABRIEL</h4><p>Thailand Province · serving since 1901.</p></div>
+    <div><h4>SISTER SITES</h4><ul>
+      <li><a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a></li>
+      <li><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a></li>
+    </ul></div>
+    <div><h4>NAVIGATE</h4><ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/brothers/">Brothers</a></li>
+      <li><a href="/vocations/">Vocations</a></li>
+      <li><a href="/connect/">Connect</a></li>
+    </ul></div>
+  </div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council.</div>
+</footer>
+</body>
+</html>

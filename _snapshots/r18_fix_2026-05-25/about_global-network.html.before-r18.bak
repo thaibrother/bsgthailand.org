@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global Network · About · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="The Gabrielite Family worldwide — Generalate in Rome, the Montfortian Family (Brothers of Saint Gabriel, Daughters of Wisdom, Company of Mary), and Provinces & Districts across more than 40 countries.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script defer src="/assets/js/rome-cal.js"></script>
+<style>
+  .net-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:22px; margin:30px 0 36px; }
+  .net-card { background:#fff; border:1px solid var(--border, #e6e1d6); border-radius:12px; padding:24px 22px; transition:border-color 0.2s; }
+  .net-card:hover { border-color: var(--gold, #c9a74e); }
+  .net-icon { font-size:28px; margin-bottom:10px; }
+  .net-card h4 { font-family:'Cinzel', Georgia, serif; font-size:1.05em; letter-spacing:1px; color:var(--navy); margin:0 0 10px; }
+  .net-card p { font-size:0.93em; line-height:1.6; color:var(--text-light); margin-bottom:14px; }
+  .net-card a { font-size:0.88em; color:var(--navy); text-decoration:none; font-weight:600; letter-spacing:0.5px; }
+  .net-card a:hover { color:var(--gold, #c9a74e); }
+  .province-block { text-align:center; margin-top:34px; }
+  .province-block h4 { font-family:'Inter',sans-serif; font-weight:600; font-size:13px; color:var(--navy); letter-spacing:1.5px; margin-bottom:14px; }
+  .province-tags { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; max-width:860px; margin:0 auto; }
+  .prov-tag { display:inline-block; padding:7px 14px; background:#fff; border:1px solid var(--border, #e6e1d6); border-radius:20px; font-size:0.86em; color:var(--text-light); text-decoration:none; transition:all 0.2s; }
+  .prov-tag:hover { border-color:var(--gold, #c9a74e); color:var(--navy); }
+  .prov-tag.self { background:var(--navy); color:#fff; border-color:var(--navy); font-weight:600; }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="brand">Brothers of Saint Gabriel<small>THAILAND PROVINCE</small></a>
+  <div class="links">
+    <a href="/">Home</a><a href="/about/" class="active">About</a><a href="/leadership/">Leadership</a><a href="/brothers/">Brothers</a><a href="/vocations/">Vocations</a><a href="/spirituality/">Spirituality</a><a href="/news/">News</a><a href="/in-memoriam/">In Memoriam</a><a href="/connect/">Connect</a>
+  </div>
+</nav>
+
+<section class="section">
+  <p class="small muted"><a href="/about/">← Back to About</a></p>
+  <h2>THE GABRIELITE FAMILY WORLDWIDE</h2>
+  <div class="line"></div>
+  <p class="lede">Thailand Province is part of a worldwide Congregation of the Brothers of Saint Gabriel, present in over <strong>40 countries</strong> across <strong>5 continents</strong> &mdash; in communion with the Generalate in Rome and with our sister congregations of the Montfortian family.</p>
+
+  <h3 style="margin-top:40px">THREE PILLARS OF THE GLOBAL FAMILY</h3>
+  <div class="line"></div>
+  <div class="net-grid">
+    <div class="net-card">
+      <div class="net-icon">&#127963;</div>
+      <h4>GENERALATE &mdash; ROME</h4>
+      <p>The worldwide headquarters of the Congregation, led by the Superior General and General Council. All Provinces, including Thailand, live in communion with Rome.</p>
+      <a href="https://www.brothersofsaintgabriel.org" target="_blank" rel="noopener">Visit Generalate &rarr;</a>
+    </div>
+    <div class="net-card">
+      <div class="net-icon">&#9968;</div>
+      <h4>THE MONTFORTIAN FAMILY</h4>
+      <p>Together with the Company of Mary (Montfort Missionaries) and the Daughters of Wisdom, we form the global Montfortian spiritual family &mdash; three congregations born of one charism.</p>
+      <a href="https://www.montfortian.info" target="_blank" rel="noopener">Montfortian Family &rarr;</a>
+    </div>
+    <div class="net-card">
+      <div class="net-icon">&#128591;</div>
+      <h4>CONGREGATION &amp; RELIGIOUS LIFE</h4>
+      <p>The charism, vocation, formation, and the three vows of Chastity, Poverty, and Obedience that guide our Religious life &mdash; preserved across the writings of Saint Louis-Marie de Montfort.</p>
+      <a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net &rarr;</a>
+    </div>
+  </div>
+
+  <div class="province-block">
+    <h3 style="margin-top:48px">PROVINCES &amp; DISTRICTS WORLDWIDE</h3>
+    <div class="line" style="margin-left:auto; margin-right:auto;"></div>
+    <p class="small muted" style="margin:14px auto 22px; max-width:680px;">A selection of the principal Provinces and Districts where the Brothers of Saint Gabriel serve the Church and education today.</p>
+    <div class="province-tags">
+      <a class="prov-tag" href="http://montfortbrothers.com/" target="_blank" rel="noopener">&#127470;&#127475; India (4 Provinces)</a>
+      <a class="prov-tag self" href="/">&#127481;&#127469; Thailand</a>
+      <a class="prov-tag" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">&#127467;&#127479; France</a>
+      <a class="prov-tag" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">&#127464;&#127462; Canada</a>
+      <a class="prov-tag" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">&#127480;&#127468; Singapore / Malaysia</a>
+      <a class="prov-tag" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">&#127468;&#127463; United Kingdom</a>
+      <a class="prov-tag" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">&#127480;&#127472; South Korea</a>
+      <a class="prov-tag" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">&#127470;&#127465; Indonesia</a>
+      <a class="prov-tag" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">&#127472;&#127466; Kenya / East Africa</a>
+      <a class="prov-tag" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">&#127474;&#127468; Madagascar</a>
+      <a class="prov-tag" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">&#127464;&#127465; DR Congo</a>
+      <a class="prov-tag" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">&#127477;&#127469; Philippines</a>
+      <a class="prov-tag" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">&#127463;&#127465; Bangladesh</a>
+      <a class="prov-tag" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">&#127475;&#127477; Nepal</a>
+      <a class="prov-tag" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">&#127473;&#127472; Sri Lanka</a>
+      <a class="prov-tag" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">&#127462;&#127482; Australia</a>
+    </div>
+  </div>
+
+  <blockquote class="callout" style="margin-top:48px">
+    "From every nation under heaven." &mdash; <em>Acts 2:5</em> &mdash; The Brothers of Saint Gabriel are a Congregation of pontifical right, gathered from many peoples and sent into many lands, yet bound by one charism and one Rule of Life.
+  </blockquote>
+
+  <p class="small muted" style="margin-top:30px">
+    Migrated from <a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a> &middot; this content (Religious Congregation worldwide) now lives on the Sacred site of the Thailand Province where it properly belongs.
+  </p>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div><h4>BROTHERS OF SAINT GABRIEL</h4><p>Thailand Province · serving since 1901.</p></div>
+    <div><h4>SISTER SITES</h4><ul>
+      <li><a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a></li>
+      <li><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a></li>
+    </ul></div>
+    <div><h4>NAVIGATE</h4><ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/leadership/">Leadership</a></li>
+      <li><a href="/brothers/">Brothers</a></li>
+      <li><a href="/connect/">Connect</a></li>
+    </ul></div>
+  </div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council.</div>
+</footer>
+</body>
+</html>

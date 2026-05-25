@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Provincial Bursar · Leadership · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="The Provincial Bursar of the Brothers of Saint Gabriel, Thailand Province — oversees the temporal goods of the Religious congregation, distinct from the financial administration of the Foundation.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script defer src="/assets/js/rome-cal.js"></script>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="brand">Brothers of Saint Gabriel<small>THAILAND PROVINCE</small></a>
+  <div class="links">
+    <a href="/">Home</a><a href="/about/">About</a><a href="/leadership/" class="active">Leadership</a><a href="/brothers/">Brothers</a><a href="/vocations/">Vocations</a><a href="/spirituality/">Spirituality</a><a href="/news/">News</a><a href="/in-memoriam/">In Memoriam</a><a href="/connect/">Connect</a>
+  </div>
+</nav>
+
+<section class="section">
+  <p class="small muted"><a href="/leadership/">← Back to Leadership</a></p>
+  <h2>PROVINCIAL BURSAR</h2>
+  <div class="line"></div>
+  <p class="lede">The Provincial Bursar oversees the <strong>temporal goods of the Religious congregation</strong> in the Thailand Province &mdash; distinct from the financial administration of the Foundation.</p>
+
+  <h3 style="margin-top:36px">THE PRESENT PROVINCIAL BURSAR</h3>
+  <div class="line"></div>
+  <p><strong>Bro. Manit Sakonthawat</strong> &mdash; serving as <em>ex officio</em> member of the Provincial Council.</p>
+
+  <h3 style="margin-top:36px">ROLE OF THE PROVINCIAL BURSAR</h3>
+  <div class="line"></div>
+  <p>Under Canon Law and the Constitutions of the Congregation, the Provincial Bursar:</p>
+  <ul style="margin:14px 0 20px 24px; color:var(--text-light); line-height:2">
+    <li>Administers the goods belonging to the Province as a Religious institute (distinct from school assets held by the Foundation);</li>
+    <li>Prepares the Province's budget and accounts for review by the Provincial Council;</li>
+    <li>Acts under the Provincial Superior in matters of significant expenditure or alienation;</li>
+    <li>Coordinates with local Bursars in each community and formation house.</li>
+  </ul>
+
+  <blockquote class="callout">
+    The Religious congregation and the Foundation each hold distinct temporal goods, with distinct stewards, under distinct legal frameworks &mdash; in faithful keeping of both canon law and Thai civil law.
+  </blockquote>
+
+  <p class="small muted" style="margin-top:24px">For the Foundation's Commission on Finance &amp; Temporal Goods (governing the temporal affairs of the 15 schools), see <a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a>.</p>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div><h4>BROTHERS OF SAINT GABRIEL</h4><p>Thailand Province · serving since 1901.</p></div>
+    <div><h4>SISTER SITES</h4><ul>
+      <li><a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a></li>
+      <li><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a></li>
+    </ul></div>
+    <div><h4>NAVIGATE</h4><ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/brothers/">Brothers</a></li>
+      <li><a href="/vocations/">Vocations</a></li>
+      <li><a href="/connect/">Connect</a></li>
+    </ul></div>
+  </div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council.</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOK Magazine · News · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="NOK Magazine — the long-standing publication of the Brothers of Saint Gabriel, Thailand Province. News from the communities, accounts of apostolic life, and the unbroken voice of the houses across many decades.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:wght@400;600;700;900&family=EB+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<style>
+  /* NOK Magazine — vintage masthead overlay */
+  .nok-paper { background: #f4ecd8; color: #2a2218; padding: 60px 24px 80px; border-top: 6px double #2a2218; border-bottom: 6px double #2a2218; margin: 30px 0 40px; }
+  .nok-inner { max-width: 880px; margin: 0 auto; }
+  .nok-masthead { text-align: center; border-bottom: 3px solid #2a2218; padding-bottom: 22px; margin-bottom: 36px; }
+  .nok-masthead .kicker { font-family: 'EB Garamond', Georgia, serif; font-style: italic; font-size: 0.95em; letter-spacing: 6px; color: #5a4a2a; margin-bottom: 8px; text-transform: uppercase; }
+  .nok-masthead h2 { font-family: 'Playfair Display', Georgia, serif; font-weight: 900; font-size: clamp(2.6em, 7vw, 4.4em); color: #2a2218; letter-spacing: 12px; line-height: 1; margin: 0; border: 0; padding: 0; }
+  .nok-masthead .line { display: none; }
+  .nok-masthead .rule { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 18px; font-family: 'EB Garamond', serif; font-style: italic; color: #5a4a2a; font-size: 0.95em; }
+  .nok-masthead .rule::before, .nok-masthead .rule::after { content: ''; flex: 0 0 80px; height: 1px; background: #5a4a2a; }
+  .nok-tagline { font-family: 'EB Garamond', Georgia, serif; font-style: italic; text-align: center; color: #5a4a2a; font-size: 1.05em; margin-bottom: 36px; line-height: 1.6; }
+  .nok-body { font-family: 'EB Garamond', Georgia, serif; font-size: 1.06em; line-height: 1.8; color: #2a2218; column-count: 1; }
+  @media (min-width: 760px) { .nok-body.two-col { column-count: 2; column-gap: 40px; } }
+  .nok-body p { margin-bottom: 14px; text-align: justify; hyphens: auto; }
+  .nok-body p:first-of-type::first-letter { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 3.2em; float: left; line-height: 0.9; padding: 6px 8px 0 0; color: #6a3a14; }
+  .nok-section-title { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; font-size: 1.4em; color: #2a2218; margin: 30px 0 14px; text-align: center; letter-spacing: 2px; text-transform: uppercase; column-span: all; }
+  .nok-section-title::before, .nok-section-title::after { content: ' ✦ '; color: #a07a3a; font-weight: 400; }
+  .nok-house { font-family: 'EB Garamond', serif; margin: 16px 0; padding-left: 12px; border-left: 2px solid #a07a3a; }
+  .nok-house .place { font-style: italic; color: #5a4a2a; font-size: 0.92em; }
+  .nok-house .text { color: #2a2218; font-size: 1em; margin-top: 4px; }
+</style>
+<script defer src="/assets/js/rome-cal.js"></script>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="brand">Brothers of Saint Gabriel<small>THAILAND PROVINCE</small></a>
+  <div class="links">
+    <a href="/">Home</a><a href="/about/">About</a><a href="/leadership/">Leadership</a><a href="/brothers/">Brothers</a><a href="/vocations/">Vocations</a><a href="/spirituality/">Spirituality</a><a href="/news/" class="active">News</a><a href="/in-memoriam/">In Memoriam</a><a href="/connect/">Connect</a>
+  </div>
+</nav>
+
+<section class="section">
+  <p class="small muted"><a href="/news/">← Back to News</a></p>
+  <h2>NOK MAGAZINE</h2>
+  <div class="line"></div>
+  <p class="lede">For many decades, <strong>NOK Magazine</strong> has carried the voice of the houses of the Brothers of Saint Gabriel in Thailand &mdash; sharing news of the communities, accounts of apostolic life, and the slow, faithful work of the Brothers across the Province.</p>
+</section>
+
+<!-- VINTAGE MASTHEAD — NOK MAGAZINE -->
+<div class="nok-paper">
+  <div class="nok-inner">
+    <div class="nok-masthead">
+      <div class="kicker">Voice of the Brothers &middot; Province of Thailand</div>
+      <h2>NOK</h2>
+      <div class="rule">Magazine of the Brothers of Saint Gabriel</div>
+    </div>
+
+    <div class="nok-tagline">
+      "Letters from the houses, gathered into one page — that no Brother may be a stranger to the life of another."
+    </div>
+
+    <div class="nok-body">
+      <p>From the Province's earliest decades, NOK has been the small but steady thread by which the houses of the Brothers in Thailand have spoken to one another. Each issue gathers brief accounts from the communities &mdash; what was celebrated, who came and went, what apostolic works were undertaken, and the quiet faithfulness of daily life under the same Rule.</p>
+      <p>The magazine takes its name as a sign of voice and flight: short, alive, and carrying word from one place to another. It is published by and for the Brothers, and shared with friends of the Province in the spirit of family.</p>
+    </div>
+
+    <div class="nok-section-title">News from the Houses</div>
+    <div class="nok-body">
+      <div class="nok-house">
+        <div class="place">From the Provincial House</div>
+        <div class="text">A column of news from the central house, in the voice of the Provincial Council, will appear here in each issue &mdash; appointments, retreats, visitations.</div>
+      </div>
+      <div class="nok-house">
+        <div class="place">From the Schools' Communities</div>
+        <div class="text">Each major community attached to a school will, in turn, share an update of community life and apostolic milestones &mdash; in the warm and concrete tone proper to NOK.</div>
+      </div>
+      <div class="nok-house">
+        <div class="place">From the Formation Houses</div>
+        <div class="text">News of the Aspirants, Postulants, Novices, and Scholastics &mdash; profession dates, formation events, and the steady growth of vocations within the Province.</div>
+      </div>
+      <div class="nok-house">
+        <div class="place">In Memoriam</div>
+        <div class="text">Brothers who have entered eternal rest are remembered here briefly, with a fuller notice on the <a href="/in-memoriam/">In Memoriam</a> page.</div>
+      </div>
+    </div>
+
+    <div class="nok-section-title">Archive</div>
+    <div class="nok-body">
+      <p style="text-align:center; font-style:italic; color:#5a4a2a;">The historical archive of past NOK issues &mdash; preserved across many decades by the Brothers &mdash; is being prepared for digital publication. It will appear here, year by year, as the work proceeds.</p>
+    </div>
+  </div>
+</div>
+
+<section class="section">
+  <p class="small muted">NOK Magazine is the long-standing publication of the Brothers of Saint Gabriel, Thailand Province. The current edition continues this voice in a form accessible to the wider Church &mdash; while honouring the vintage style that has marked the magazine since its founding.</p>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div><h4>BROTHERS OF SAINT GABRIEL</h4><p>Thailand Province · serving since 1901.</p></div>
+    <div><h4>SISTER SITES</h4><ul>
+      <li><a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a></li>
+      <li><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a></li>
+    </ul></div>
+    <div><h4>NAVIGATE</h4><ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/brothers/">Brothers</a></li>
+      <li><a href="/vocations/">Vocations</a></li>
+      <li><a href="/connect/">Connect</a></li>
+    </ul></div>
+  </div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council.</div>
+</footer>
+</body>
+</html>

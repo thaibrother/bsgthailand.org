@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Provincial Superior · Leadership · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="The Provincial Superior of the Brothers of Saint Gabriel, Thailand Province — Major Superior appointed by the General Council to lead the Province in spiritual and governance matters.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script defer src="/assets/js/rome-cal.js"></script>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="brand">Brothers of Saint Gabriel<small>THAILAND PROVINCE</small></a>
+  <div class="links">
+    <a href="/">Home</a><a href="/about/">About</a><a href="/leadership/" class="active">Leadership</a><a href="/brothers/">Brothers</a><a href="/vocations/">Vocations</a><a href="/spirituality/">Spirituality</a><a href="/news/">News</a><a href="/in-memoriam/">In Memoriam</a><a href="/connect/">Connect</a>
+  </div>
+</nav>
+
+<section class="section">
+  <p class="small muted"><a href="/leadership/">← Back to Leadership</a></p>
+  <h2>PROVINCIAL SUPERIOR</h2>
+  <div class="line"></div>
+  <p class="lede">The Provincial Superior is the Major Superior of the Brothers of Saint Gabriel in Thailand. Appointed by the Superior General with the consent of the General Council, the Provincial Superior leads the Thailand Province in religious life, governance, and mission for a three-year term (renewable once).</p>
+
+  <h3 style="margin-top:36px">THE PRESENT PROVINCIAL SUPERIOR</h3>
+  <div class="line"></div>
+  <p><strong>Bro. Surakit Srisarankulwong</strong></p>
+  <p>Provincial Superior of the Brothers of Saint Gabriel, Thailand Province (term beginning 2026).</p>
+
+  <h3 style="margin-top:36px">ROLE OF THE PROVINCIAL SUPERIOR</h3>
+  <div class="line"></div>
+  <p>Within the Congregation, the Provincial Superior:</p>
+  <ul style="margin:14px 0 20px 24px; color:var(--text-light); line-height:2">
+    <li>Exercises ordinary jurisdiction over the Brothers of the Thailand Province (Canon 134);</li>
+    <li>Promotes the spiritual life of the Brothers and the apostolic mission of the Province;</li>
+    <li>Visits each community of the Province periodically;</li>
+    <li>Decides postings and missions of the Brothers (the annual letter of <em>obedience</em>);</li>
+    <li>Convokes and presides at the Provincial Council and the Provincial Chapter;</li>
+    <li>Serves <em>ex officio</em> as President of the Saint Gabriel's Foundation of Thailand for the duration of the term.</li>
+  </ul>
+
+  <blockquote class="callout">
+    The Provincial Superior is, above all, a Brother among Brothers &mdash; called to serve in the spirit of Saint Louis-Marie de Montfort: <em>God Alone</em>, through Mary, for the young and the poor.
+  </blockquote>
+
+  <p class="small muted" style="margin-top:28px">For the Provincial Council that assists the Superior, see <a href="council.html">Leadership &middot; Provincial Council</a>. For the General Council in Rome, see <a href="general.html">Leadership &middot; General Council</a>.</p>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div><h4>BROTHERS OF SAINT GABRIEL</h4><p>Thailand Province · serving since 1901.</p></div>
+    <div><h4>SISTER SITES</h4><ul>
+      <li><a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a></li>
+      <li><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a></li>
+    </ul></div>
+    <div><h4>NAVIGATE</h4><ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/brothers/">Brothers</a></li>
+      <li><a href="/vocations/">Vocations</a></li>
+      <li><a href="/connect/">Connect</a></li>
+    </ul></div>
+  </div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council.</div>
+</footer>
+</body>
+</html>

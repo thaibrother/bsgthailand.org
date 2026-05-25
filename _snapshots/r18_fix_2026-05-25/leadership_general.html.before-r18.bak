@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>General Council · Leadership · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="The General Council of the Brothers of Saint Gabriel — worldwide leadership of the Congregation, with its General House in Rome. The Thailand Province lives in communion with the General Council.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script defer src="/assets/js/rome-cal.js"></script>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="brand">Brothers of Saint Gabriel<small>THAILAND PROVINCE</small></a>
+  <div class="links">
+    <a href="/">Home</a><a href="/about/">About</a><a href="/leadership/" class="active">Leadership</a><a href="/brothers/">Brothers</a><a href="/vocations/">Vocations</a><a href="/spirituality/">Spirituality</a><a href="/news/">News</a><a href="/in-memoriam/">In Memoriam</a><a href="/connect/">Connect</a>
+  </div>
+</nav>
+
+<section class="section">
+  <p class="small muted"><a href="/leadership/">← Back to Leadership</a></p>
+  <h2>GENERAL COUNCIL &middot; ROME</h2>
+  <div class="line"></div>
+  <p class="lede">The Thailand Province lives and serves in communion with the General Council of the Brothers of Saint Gabriel, whose General House is in <strong>Rome</strong>. The General Council, led by the Superior General, governs the entire Congregation worldwide.</p>
+
+  <h3 style="margin-top:36px">THE WORLDWIDE CONGREGATION</h3>
+  <div class="line"></div>
+  <p>Founded in the spirit of Saint Louis-Marie de Montfort, the Brothers of Saint Gabriel are present in many nations across Asia, Africa, Europe, the Americas, and Oceania. Each country or region is organised as a <strong>Province</strong> &mdash; Thailand being one such Province.</p>
+  <p>The supreme assembly of the Congregation is the <strong>General Chapter</strong>, convoked every six years. Between Chapters, the Superior General and the General Council exercise ordinary governance.</p>
+
+  <h3 style="margin-top:36px">COMMUNION WITH ROME</h3>
+  <div class="line"></div>
+  <p>The Provincial Superior of Thailand:</p>
+  <ul style="margin:14px 0 20px 24px; color:var(--text-light); line-height:2">
+    <li>Is appointed by the Superior General with the consent of the General Council;</li>
+    <li>Submits an annual report to the General Council on the state of the Province;</li>
+    <li>Participates in periodic gatherings of all Provincial Superiors;</li>
+    <li>Welcomes canonical visitation by the General Council on a regular basis.</li>
+  </ul>
+
+  <blockquote class="callout">
+    Through this living communion with Rome, the Brothers of the Thailand Province belong to a Congregation that is at once <em>universal</em> (Catholic, worldwide) and <em>local</em> (incarnated in this land).
+  </blockquote>
+
+  <h3 style="margin-top:36px">THE GLOBAL MONTFORTIAN FAMILY</h3>
+  <div class="line"></div>
+  <p>The Brothers of Saint Gabriel are one of three congregations born of Saint Louis-Marie de Montfort &mdash; together with the Daughters of Wisdom and the Company of Mary. Visit <a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a> for the global hub of the Montfortian family.</p>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div><h4>BROTHERS OF SAINT GABRIEL</h4><p>Thailand Province · serving since 1901.</p></div>
+    <div><h4>SISTER SITES</h4><ul>
+      <li><a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a></li>
+      <li><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a></li>
+    </ul></div>
+    <div><h4>NAVIGATE</h4><ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/brothers/">Brothers</a></li>
+      <li><a href="/vocations/">Vocations</a></li>
+      <li><a href="/connect/">Connect</a></li>
+    </ul></div>
+  </div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council.</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Retreats &amp; Recollections · Spirituality · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="Annual retreats and monthly recollections kept by the Brothers of Saint Gabriel, Thailand Province — times set apart for deeper prayer and renewal.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script defer src="/assets/js/rome-cal.js"></script>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="brand">Brothers of Saint Gabriel<small>THAILAND PROVINCE</small></a>
+  <div class="links">
+    <a href="/">Home</a><a href="/about/">About</a><a href="/leadership/">Leadership</a><a href="/brothers/">Brothers</a><a href="/vocations/">Vocations</a><a href="/spirituality/" class="active">Spirituality</a><a href="/news/">News</a><a href="/in-memoriam/">In Memoriam</a><a href="/connect/">Connect</a>
+  </div>
+</nav>
+
+<section class="section">
+  <p class="small muted"><a href="/spirituality/">← Back to Spirituality</a></p>
+  <h2>RETREATS &amp; RECOLLECTIONS</h2>
+  <div class="line"></div>
+  <p class="lede">Beyond the daily rhythm, the Brothers set apart longer periods of silence and prayer &mdash; to listen more deeply, to renew the call, and to return to the apostolate refreshed.</p>
+
+  <h3 style="margin-top:36px">ANNUAL RETREAT</h3>
+  <div class="line"></div>
+  <p>Each year, every Brother of the Province makes a <strong>retreat of several days</strong> &mdash; usually in silence, under the guidance of a Brother or priest preacher. The annual retreat is one of the most important obligations of the Religious life: a time for honest review, deep listening, and the renewal of one's vows in spirit.</p>
+
+  <h3 style="margin-top:36px">MONTHLY RECOLLECTION</h3>
+  <div class="line"></div>
+  <p>In addition, each community sets aside a day each month for <strong>recollection</strong> &mdash; ordinarily a day of greater silence, Eucharistic adoration, spiritual reading, and conversation with a spiritual director. This monthly rhythm keeps the Brother attentive to the movements of the Lord in the midst of busy apostolic life.</p>
+
+  <h3 style="margin-top:36px">EXTERNAL RETREATS</h3>
+  <div class="line"></div>
+  <p>Some Brothers, with the permission of the Provincial Superior, attend retreats organised by other Religious communities or spiritual centres &mdash; broadening their formation and deepening communion with the wider Church in Thailand.</p>
+
+  <blockquote class="callout">
+    "Come away by yourselves to a deserted place and rest a while." &mdash; <em>Mark 6:31</em>
+  </blockquote>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div><h4>BROTHERS OF SAINT GABRIEL</h4><p>Thailand Province · serving since 1901.</p></div>
+    <div><h4>SISTER SITES</h4><ul>
+      <li><a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a></li>
+      <li><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a></li>
+    </ul></div>
+    <div><h4>NAVIGATE</h4><ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/brothers/">Brothers</a></li>
+      <li><a href="/vocations/">Vocations</a></li>
+      <li><a href="/connect/">Connect</a></li>
+    </ul></div>
+  </div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council.</div>
+</footer>
+</body>
+</html>

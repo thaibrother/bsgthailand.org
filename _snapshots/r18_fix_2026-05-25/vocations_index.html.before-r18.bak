@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vocations · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="Have you felt called to serve God as a Brother of Saint Gabriel? Discover the path of formation, our four formation houses, and how to begin discerning a religious vocation in the Thailand Province.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script defer src="/assets/js/rome-cal.js"></script>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="brand">Brothers of Saint Gabriel<small>THAILAND PROVINCE</small></a>
+  <div class="links">
+    <a href="/">Home</a><a href="/about/">About</a><a href="/leadership/">Leadership</a><a href="/brothers/">Brothers</a><a href="/vocations/" class="active">Vocations</a><a href="/spirituality/">Spirituality</a><a href="/news/">News</a><a href="/in-memoriam/">In Memoriam</a><a href="/connect/">Connect</a>
+  </div>
+</nav>
+
+<section class="section">
+  <h2>HEAR THE CALL</h2>
+  <div class="line"></div>
+  <p class="lede">"Have you felt the call of God to serve as a Brother?" If so, you stand at the beginning of a journey of discernment, prayer, and accompaniment &mdash; the same path walked by every Brother before you.</p>
+
+  <blockquote class="callout">
+    The vocation to be a Brother of Saint Gabriel is a gift from God &mdash; quietly given, freely received, slowly tested over years of formation. It begins with a question, and grows through accompaniment.
+  </blockquote>
+
+  <div class="card-grid" style="margin-top:30px">
+    <a class="card" href="path.html">
+      <h3>FORMATION PATH</h3>
+      <div class="meta">From Aspirancy to Perpetual Profession</div>
+      <p>The four stages of becoming a Brother &mdash; from the first introduction to religious life through to the final commitment of perpetual vows.</p>
+    </a>
+    <a class="card" href="houses.html">
+      <h3>FORMATION HOUSES</h3>
+      <div class="meta">Four houses in Thailand</div>
+      <p>The houses in which young men live, pray, study, and grow into their vocation as Brothers &mdash; under the care of formators of the Province.</p>
+    </a>
+    <a class="card" href="discernment.html">
+      <h3>DISCERNMENT</h3>
+      <div class="meta">Is this God calling me?</div>
+      <p>Guidance for those exploring a possible vocation &mdash; what to look for, how to pray, and how the call of God is gradually recognised.</p>
+    </a>
+    <a class="card" href="contact.html">
+      <h3>CONTACT THE FORMATORS</h3>
+      <div class="meta">Begin a conversation</div>
+      <p>How to reach the Brothers of the Province responsible for vocation accompaniment. The first step is simply to write or speak.</p>
+    </a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div><h4>BROTHERS OF SAINT GABRIEL</h4><p>Thailand Province · serving since 1901.</p></div>
+    <div><h4>SISTER SITES</h4><ul>
+      <li><a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a></li>
+      <li><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a></li>
+    </ul></div>
+    <div><h4>NAVIGATE</h4><ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/brothers/">Brothers</a></li>
+      <li><a href="/spirituality/">Spirituality</a></li>
+      <li><a href="/connect/">Connect</a></li>
+    </ul></div>
+  </div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council.</div>
+</footer>
+</body>
+</html>

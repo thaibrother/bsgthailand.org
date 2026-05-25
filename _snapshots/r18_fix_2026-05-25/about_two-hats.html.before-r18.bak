@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Two Structures · About · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="The Brothers in Thailand live and serve through two structures — the Religious congregation (canon law) and the Saint Gabriel's Foundation of Thailand (civil law) — carried by the same community.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script defer src="/assets/js/rome-cal.js"></script>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="brand">Brothers of Saint Gabriel<small>THAILAND PROVINCE</small></a>
+  <div class="links">
+    <a href="/">Home</a><a href="/about/" class="active">About</a><a href="/leadership/">Leadership</a><a href="/brothers/">Brothers</a><a href="/vocations/">Vocations</a><a href="/spirituality/">Spirituality</a><a href="/news/">News</a><a href="/in-memoriam/">In Memoriam</a><a href="/connect/">Connect</a>
+  </div>
+</nav>
+
+<section class="section">
+  <p class="small muted"><a href="/about/">← Back to About</a></p>
+  <h2>TWO STRUCTURES &middot; ONE COMMUNITY</h2>
+  <div class="line"></div>
+  <p class="lede">The Brothers of Saint Gabriel in Thailand live and serve through two structures &mdash; one religious, one civil &mdash; carried by the same community of Brothers under one charism.</p>
+
+  <table class="tidy" style="margin-top:24px">
+    <thead>
+      <tr><th></th><th>Religious Congregation</th><th>Saint Gabriel's Foundation of Thailand</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Nature</strong></td>
+        <td>A pontifical-right religious institute of the Catholic Church</td>
+        <td>A registered Thai foundation under civil law</td>
+      </tr>
+      <tr>
+        <td><strong>Governed by</strong></td>
+        <td>Canon Law &middot; the Rule of Life &middot; the Constitutions of the Congregation &middot; Provincial Directory</td>
+        <td>The Civil and Commercial Code of Thailand &middot; the Foundation's Bylaws (4th edition, 2010)</td>
+      </tr>
+      <tr>
+        <td><strong>Leader</strong></td>
+        <td>Provincial Superior &middot; assisted by the Provincial Council</td>
+        <td>The Provincial Superior (ex officio chair) &middot; assisted by Foundation Board members</td>
+      </tr>
+      <tr>
+        <td><strong>Members / Units</strong></td>
+        <td>Approximately 72 Brothers in 19 communities</td>
+        <td>15 schools in the Foundation's network &middot; six commissions</td>
+      </tr>
+      <tr>
+        <td><strong>Public face</strong></td>
+        <td><strong>bsgthailand.org</strong> &middot; this site</td>
+        <td><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 style="margin-top:40px">WHY TWO STRUCTURES</h3>
+  <div class="line"></div>
+  <p>The Brothers' religious life — the vows, the rhythm of community, the formation of new members, the bond of spiritual brotherhood — exists under canon law of the Catholic Church. This is who we <em>are</em>.</p>
+  <p>To carry the educational mission across Thailand in a manner that Thai law recognizes and that benefits Thai society, the Brothers established the <strong>Saint Gabriel's Foundation of Thailand</strong> in 1937 as a civil entity. This is how a portion of our mission <em>operates</em> in this nation.</p>
+
+  <blockquote class="callout">
+    The same community of Brothers, called by one charism, working under two legal frameworks that must remain in harmony.
+  </blockquote>
+
+  <p>Distinguishing the two structures is important for clarity &mdash; especially when corresponding with other religious congregations (a matter of canon law) or when reporting to civil authorities and educational stakeholders (a matter of civil law).</p>
+
+  <p class="small muted" style="margin-top:24px">For the Foundation's governance, six commissions, and school network, please visit <a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a>.</p>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div><h4>BROTHERS OF SAINT GABRIEL</h4><p>Thailand Province · serving since 1901.</p></div>
+    <div><h4>SISTER SITES</h4><ul>
+      <li><a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a></li>
+      <li><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a></li>
+    </ul></div>
+    <div><h4>NAVIGATE</h4><ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/leadership/">Leadership</a></li>
+      <li><a href="/brothers/">Brothers</a></li>
+      <li><a href="/vocations/">Vocations</a></li>
+    </ul></div>
+  </div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council.</div>
+</footer>
+</body>
+</html>

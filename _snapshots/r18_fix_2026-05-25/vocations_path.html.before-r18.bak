@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formation Path · Vocations · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="The four stages of formation for a Brother of Saint Gabriel — from Aspirancy through Postulancy, Novitiate, Scholasticate, and on to perpetual profession in the Congregation.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script defer src="/assets/js/rome-cal.js"></script>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="brand">Brothers of Saint Gabriel<small>THAILAND PROVINCE</small></a>
+  <div class="links">
+    <a href="/">Home</a><a href="/about/">About</a><a href="/leadership/">Leadership</a><a href="/brothers/">Brothers</a><a href="/vocations/" class="active">Vocations</a><a href="/spirituality/">Spirituality</a><a href="/news/">News</a><a href="/in-memoriam/">In Memoriam</a><a href="/connect/">Connect</a>
+  </div>
+</nav>
+
+<section class="section">
+  <p class="small muted"><a href="/vocations/">← Back to Vocations</a></p>
+  <h2>THE FORMATION PATH</h2>
+  <div class="line"></div>
+  <p class="lede">Becoming a Brother of Saint Gabriel is the work of many years &mdash; an unhurried journey of formation in which a young man is gradually shaped, and freely shapes himself, into a Religious of the Congregation.</p>
+
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-year">ASPIRANCY</div>
+      <div class="tl-text">The first stage. A young man drawn toward religious life is invited to live periods of accompaniment with the Brothers, while continuing his studies and ordinary life. The aim is simply to grow in self-knowledge, prayer, and clarity about the call.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">POSTULANCY</div>
+      <div class="tl-text">A more committed time of living with the Brothers, sharing their daily rhythm of prayer and community, learning the foundations of the spiritual life. The Postulant is not yet vowed but is preparing to enter the Novitiate.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">NOVITIATE</div>
+      <div class="tl-text">A canonical year set apart for formation in the Religious life: the meaning of the vows, the spirit of Saint Louis-Marie de Montfort, the Rule of Life, prayer and silence. At the end of the Novitiate, the Brother takes his first vows of poverty, chastity, and obedience &mdash; for a limited period, renewable.</div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-year">SCHOLASTICATE &middot; PERPETUAL PROFESSION</div>
+      <div class="tl-text">Years of deepening &mdash; theological and pastoral studies, apostolic experience, accompaniment by formators. When the Brother and the Congregation together discern that the time is right, he makes his <strong>perpetual profession</strong> &mdash; giving himself to God in the Congregation for life.</div>
+    </div>
+  </div>
+
+  <blockquote class="callout">
+    Formation is not a checklist of stages but the patient work of God shaping a person into Christ &mdash; with the help of his Brothers, in the spirit of Saint Louis-Marie de Montfort.
+  </blockquote>
+
+  <p class="small muted" style="margin-top:24px">For the houses where each stage of formation takes place, see <a href="houses.html">Formation Houses</a>.</p>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div><h4>BROTHERS OF SAINT GABRIEL</h4><p>Thailand Province · serving since 1901.</p></div>
+    <div><h4>SISTER SITES</h4><ul>
+      <li><a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a></li>
+      <li><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a></li>
+    </ul></div>
+    <div><h4>NAVIGATE</h4><ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/brothers/">Brothers</a></li>
+      <li><a href="/spirituality/">Spirituality</a></li>
+      <li><a href="/connect/">Connect</a></li>
+    </ul></div>
+  </div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council.</div>
+</footer>
+</body>
+</html>

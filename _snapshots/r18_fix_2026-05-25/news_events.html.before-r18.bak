@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Major Events · News · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="Major events in the life of the Brothers of Saint Gabriel, Thailand Province — Provincial Chapter, BSG Assembly, jubilees of profession, and other significant gatherings.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script defer src="/assets/js/rome-cal.js"></script>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="brand">Brothers of Saint Gabriel<small>THAILAND PROVINCE</small></a>
+  <div class="links">
+    <a href="/">Home</a><a href="/about/">About</a><a href="/leadership/">Leadership</a><a href="/brothers/">Brothers</a><a href="/vocations/">Vocations</a><a href="/spirituality/">Spirituality</a><a href="/news/" class="active">News</a><a href="/in-memoriam/">In Memoriam</a><a href="/connect/">Connect</a>
+  </div>
+</nav>
+
+<section class="section">
+  <p class="small muted"><a href="/news/">← Back to News</a></p>
+  <h2>MAJOR EVENTS</h2>
+  <div class="line"></div>
+  <p class="lede">Through the year, the Province gathers for moments of common discernment, celebration, and renewal. These events shape the rhythm of our common life beyond the daily round of each community.</p>
+
+  <h3 style="margin-top:36px">RECURRING MOMENTS OF THE PROVINCE</h3>
+  <div class="line"></div>
+  <ul style="margin:14px 0 20px 24px; color:var(--text-light); line-height:2">
+    <li><strong>BSG Assembly</strong> &mdash; a periodic gathering of all Brothers of the Province for reflection, formation, and common discernment;</li>
+    <li><strong>Provincial Chapter</strong> &mdash; convened on the schedule set by the Constitutions, to take stock of the Province and set its direction;</li>
+    <li><strong>Jubilees of Religious Profession</strong> &mdash; celebrations of milestone anniversaries (25, 50, 60 years) of perpetual vows;</li>
+    <li><strong>Provincial Retreat</strong> &mdash; the annual silent retreat shared by the Brothers;</li>
+    <li><strong>Patronal feasts</strong> &mdash; Saint Louis-Marie de Montfort (28 April) and Saint Gabriel Possenti (27 February).</li>
+  </ul>
+
+  <h3 style="margin-top:36px">UPCOMING / RECENT</h3>
+  <div class="line"></div>
+  <p>The chronological events feed is being prepared by the Provincial Secretariat. Each event will be published with date, location, and a brief summary, in the voice of the Provincial Council.</p>
+
+  <blockquote class="callout">
+    The major events of the Province are not items on a calendar; they are the visible threads by which a Religious family weaves its memory and renews its life.
+  </blockquote>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div><h4>BROTHERS OF SAINT GABRIEL</h4><p>Thailand Province · serving since 1901.</p></div>
+    <div><h4>SISTER SITES</h4><ul>
+      <li><a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a></li>
+      <li><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a></li>
+    </ul></div>
+    <div><h4>NAVIGATE</h4><ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/brothers/">Brothers</a></li>
+      <li><a href="/vocations/">Vocations</a></li>
+      <li><a href="/connect/">Connect</a></li>
+    </ul></div>
+  </div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council.</div>
+</footer>
+</body>
+</html>
