@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Overview · ภาพรวมรากเหง้าถึงพันธกิจ · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="ภาพรวมรากเหง้าจิตวิญญาณถึงปลายน้ำพันธกิจการศึกษา — Holy See → Saint Louis-Marie de Montfort → 3 Montfortian Congregations → Generalate + Local Church Thailand → Brothers of Saint Gabriel Thailand Province → Foundation → 15 Schools → พันธกิจการศึกษา · เด็กเป็นศูนย์กลาง">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<style>
+  .ovw-header { text-align: center; padding: 24px 0 18px; }
+  .ovw-header h1 { font-family: 'Cinzel', serif; font-size: 1.6em; color: var(--navy); letter-spacing: 2px; margin-bottom: 6px; }
+  .ovw-header .sub { color: var(--text-light); font-size: 0.95em; font-family: 'Sarabun', sans-serif; }
+  .tree { background: #fff; border: 1px solid var(--border, #e6e1d6); border-radius: 12px; padding: 28px 24px; margin-bottom: 32px; text-align: center; }
+  .tree .node { display: inline-block; padding: 10px 16px; font-size: 14px; color: var(--navy); font-weight: 600; max-width: 760px; }
+  .tree .node small { display: block; color: var(--text-soft, #888); font-weight: 400; font-size: 11.5px; margin-top: 4px; line-height: 1.6; }
+  .tree .arr { color: var(--gold, #c9a74e); margin: 8px 0; }
+  .site-tag { display: inline-block; font-size: 11.5px; color: var(--text-light); margin-left: 4px; font-family: 'Sarabun', sans-serif; }
+  .site-tag a { color: var(--navy); text-decoration: none; font-weight: 600; }
+  .site-tag a:hover { color: var(--gold, #c9a74e); text-decoration: underline; }
+  .ovw-foot { font-size: 12px; color: var(--text-soft, #888); font-style: italic; text-align: center; margin-top: 24px; padding-top: 18px; border-top: 1px dashed var(--border, #e6e1d6); }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="brand">Brothers of Saint Gabriel<small>THAILAND PROVINCE</small></a>
+  <div class="links">
+    <a href="/">Home</a><a href="/about/">About</a><a href="/leadership/">Leadership</a><a href="/brothers/">Brothers</a><a href="/vocations/">Vocations</a><a href="/spirituality/">Spirituality</a><a href="/news/">News</a><a href="/in-memoriam/">In Memoriam</a><a href="/connect/">Connect</a><a href="/overview/" class="active">Overview</a>
+  </div>
+</nav>
+
+<section class="section">
+  <div class="ovw-header">
+    <h1>OVERVIEW · ภาพรวมรากเหง้า → ปลายน้ำพันธกิจ</h1>
+    <div class="sub">From the Spiritual Tree to the Mission · 9 layers · canonical mapping</div>
+  </div>
+
+  <div class="tree">
+    <div class="node">⛪ <strong>1.</strong> Holy See · Vatican <span class="site-tag">(<a href="https://www.vatican.va" target="_blank" rel="noopener">vatican.va</a>)</span><small>ศูนย์กลางพระศาสนจักรคาทอลิก</small></div>
+    <div class="arr">▼</div>
+    <div class="node">✝️ <strong>2.</strong> Saint Louis-Marie de Montfort · 1673–1716 <span class="site-tag">(<a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a> · งานเขียน)</span><small>พระสงฆ์ฝรั่งเศส · พระธรรมทูตเดินเท้า · "GOD ALONE" (Dieu Seul)</small></div>
+    <div class="arr">▼</div>
+    <div class="node">🌿 <strong>3.</strong> 3 Montfortian Congregations (Pontifical Right) <span class="site-tag">(<a href="https://www.montfortian.info" target="_blank" rel="noopener">montfortian.info</a> · Family)</span>
+      <small>
+        • Daughters of Wisdom (FDLS · 1703 · ร่วมกับนักบุญมารี-หลุยส์ ตรีเชต์) · งานพยาบาล/การศึกษา/สังคม <span class="site-tag">(<a href="https://www.fdlsagesse.org" target="_blank" rel="noopener">fdlsagesse.org</a>)</span><br>
+        • Montfort Missionaries / Company of Mary (SMM · 1705) · เทศนาภาคสนาม <span class="site-tag">(<a href="https://www.montfort.org.uk" target="_blank" rel="noopener">montfort.org.uk</a>)</span><br>
+        • Brothers of Saint Gabriel (SG · 1705) · การศึกษา · 40+ ประเทศ ← เซลล์ของเรา <span class="site-tag">(<a href="https://www.stgabrielinst.org" target="_blank" rel="noopener">stgabrielinst.org</a>)</span>
+      </small>
+    </div>
+    <div class="arr">▼</div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 6px auto; max-width: 780px;">
+      <div class="node" style="text-align: left; padding: 14px 16px; border: 1px solid var(--border, #e6e1d6); border-radius: 8px; background: #f8f8f4;">
+        🏛️ <strong>4a.</strong> Central Administration · Generalate · Rome <span class="site-tag">(<a href="https://www.stgabrielinst.org" target="_blank" rel="noopener">stgabrielinst.org</a>)</span>
+        <small>ศูนย์กลางปกครองคณะภราดาเซนต์คาเบรียลทั่วโลก · Superior General + General Council · ปกครองภายในคณะ (Religious governance)</small>
+      </div>
+      <div class="node" style="text-align: left; padding: 14px 16px; background: #fff7ed; border: 1px solid #fed7aa; border-radius: 8px;">
+        ⛪ <strong>4b.</strong> พระศาสนจักรคาทอลิกในประเทศไทย <span class="site-tag">(<a href="https://www.cbct.net" target="_blank" rel="noopener">cbct.net</a> · CBCT)</span>
+        <small>Local Church Thailand · ไม่ subordinate ต่อ Generalate · เป็น Local Church อิสระที่ Brothers SG ปฏิบัติพันธกิจภายใต้</small>
+      </div>
+    </div>
+    <div class="arr">▼</div>
+
+    <div class="node">🌟 <strong>5.</strong> Brothers of Saint Gabriel · Thailand Province <span class="site-tag">(<a href="https://bsgthailand.org" target="_blank" rel="noopener">bsgthailand.org</a>)</span><small>คณะภราดาเซนต์คาเบรียลแขวงประเทศไทย · 1901 · ~72 ภราดา · 19 Community (บ้านภราดาประจำแต่ละโรงเรียน) · <strong>อยู่ใน Local Church Thailand (4b)</strong> + <strong>รายงาน Generalate Rome (4a)</strong></small></div>
+    <div class="arr">▼</div>
+    <div class="node">🏛️ <strong>6.</strong> Foundation of the Brothers of Saint Gabriel in Thailand <span class="site-tag">(<a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a>)</span><small>มูลนิธิคณะเซนต์คาเบรียลแห่งประเทศไทย · นิติบุคคล · 1937 · 6 Commissions</small></div>
+    <div class="arr">▼</div>
+    <div class="node">🏫 <strong>7.</strong> 15 Schools Network <span class="site-tag">(<a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a> · feed รวม)</span><small>AC · ACP · SG · MC · MCP · ACS · SLC · ACL · ACT · ACR · ACU · ACN · ACSP · ATSN · ACEP · ดำเนินการในไทย · ผอ. = ภราดา</small></div>
+    <div class="arr">▼</div>
+    <div class="node" style="background: #fef3c7; padding: 14px 18px; border-radius: 8px; border: 1px solid #fde68a;">👶 <strong>8.</strong> พันธกิจการศึกษา · เด็กเป็นศูนย์กลาง<small>ตาม MEC · Holistic Formation · พัฒนาทั้งสติปัญญา จิตใจ ร่างกาย จิตวิญญาณ · Marian Spirit · เพื่อเด็กยากจนเป็นพิเศษ (Founder spirit)</small></div>
+  </div>
+
+  <div class="ovw-foot">
+    canonical sources: <code>identity_montfortian_roots.md</code> + <code>01_roots_rome_master.md</code> + <code>_BIG_PICTURE.md</code> · ห้ามตัดราก (R10) · พระศาสนจักรไทย ไม่ subordinate ต่อ Generalate
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div><h4>BROTHERS OF SAINT GABRIEL</h4><p>Thailand Province · serving since 1901.</p></div>
+    <div><h4>SISTER SITES</h4><ul>
+      <li><a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a></li>
+      <li><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a></li>
+    </ul></div>
+    <div><h4>NAVIGATE</h4><ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/leadership/">Leadership</a></li>
+      <li><a href="/brothers/">Brothers</a></li>
+      <li><a href="/overview/">Overview</a></li>
+    </ul></div>
+  </div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council.</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Overview · ภาพรวมรากเหง้าถึงพันธกิจ · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="ภาพรวมรากเหง้าจิตวิญญาณถึงปลายน้ำพันธกิจการศึกษา — Holy See → Saint Louis-Marie de Montfort → 3 Montfortian Congregations → Generalate + Local Church Thailand → Brothers of Saint Gabriel Thailand Province → Foundation → 15 Schools → พันธกิจการศึกษา · เด็กเป็นศูนย์กลาง">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<style>
+  /* ── Overview card layout ── */
+  .ovw-hero { text-align: center; padding: 36px 0 24px; }
+  .ovw-hero h1 { font-family: 'Cinzel', serif; font-size: clamp(1.4em, 3vw, 2em); color: var(--navy); letter-spacing: 3px; margin-bottom: 8px; }
+  .ovw-hero .sub { font-family: 'Sarabun', sans-serif; color: var(--text-light, #666); font-size: 0.98em; }
+  .ovw-hero .meta { margin-top: 12px; font-size: 11.5px; color: var(--text-soft, #999); font-style: italic; }
+
+  /* Card stack */
+  .ovw-stack { max-width: 920px; margin: 0 auto; padding: 0 12px; }
+
+  .ovw-card {
+    background: #fff; border-radius: 14px; padding: 22px 24px; margin-bottom: 18px;
+    border: 1px solid var(--border, #e6e1d6); box-shadow: 0 1px 3px rgba(26, 58, 92, 0.06);
+    display: grid; grid-template-columns: 76px 1fr; gap: 22px; align-items: center;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .ovw-card:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(26, 58, 92, 0.12); }
+  .ovw-card .badge {
+    width: 64px; height: 64px; border-radius: 50%;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light, #2c5f8a) 100%);
+    color: #fff; font-family: 'Cinzel', serif; font-weight: 700;
+  }
+  .ovw-card .badge .num { font-size: 20px; line-height: 1; }
+  .ovw-card .badge .icon { font-size: 16px; margin-top: 1px; }
+  .ovw-card .body h3 { font-family: 'Cinzel', serif; font-size: 1.05em; color: var(--navy); margin: 0 0 4px; letter-spacing: 1px; }
+  .ovw-card .body h3 .en { font-family: 'Sarabun', sans-serif; font-weight: 400; font-size: 0.85em; color: var(--text-light, #666); letter-spacing: 0; margin-left: 4px; }
+  .ovw-card .body .desc { font-family: 'Sarabun', sans-serif; font-size: 0.92em; color: var(--text-light, #666); line-height: 1.6; margin-top: 4px; }
+  .ovw-card .body .desc strong { color: var(--navy); }
+  .ovw-card .body .url-link {
+    display: inline-block; margin-top: 8px; padding: 5px 12px;
+    background: #f8f5ed; color: var(--navy); border-radius: 14px;
+    font-family: 'Sarabun', sans-serif; font-size: 0.85em; font-weight: 600; text-decoration: none;
+    border: 1px solid var(--border, #e6e1d6);
+  }
+  .ovw-card .body .url-link:hover { background: var(--navy); color: #fff; border-color: var(--navy); }
+  .ovw-card .body .sub-list { margin-top: 10px; padding: 10px 14px; background: #fafaf7; border-radius: 8px; font-size: 0.86em; line-height: 1.8; color: var(--text-light, #666); }
+  .ovw-card .body .sub-list .sub-item { display: block; padding: 2px 0; }
+  .ovw-card .body .sub-list .sub-item strong { color: var(--navy); margin-right: 4px; }
+
+  /* Connector arrow between cards */
+  .ovw-arrow { text-align: center; color: var(--gold, #c9a74e); font-size: 18px; line-height: 1; margin: -6px 0 6px; }
+
+  /* Twin cards (4a + 4b parallel) */
+  .ovw-twin {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 18px;
+  }
+  @media (max-width: 700px) { .ovw-twin { grid-template-columns: 1fr; } }
+  .ovw-card.compact { padding: 18px 20px; }
+  .ovw-card.compact .badge { width: 52px; height: 52px; }
+  .ovw-card.compact .badge .num { font-size: 16px; }
+  .ovw-card.compact .badge .icon { font-size: 13px; }
+  .ovw-card.compact .body h3 { font-size: 0.95em; }
+  .ovw-card.compact .body .desc { font-size: 0.85em; }
+
+  /* Branch zone tints */
+  .ovw-card.global   { border-left: 4px solid #1d4ed8; }
+  .ovw-card.global   .badge { background: linear-gradient(135deg, #1e40af 0%, #1d4ed8 100%); }
+  .ovw-card.founder  { border-left: 4px solid #7c3aed; }
+  .ovw-card.founder  .badge { background: linear-gradient(135deg, #6d28d9 0%, #7c3aed 100%); }
+  .ovw-card.congregation { border-left: 4px solid #059669; }
+  .ovw-card.congregation .badge { background: linear-gradient(135deg, #047857 0%, #059669 100%); }
+  .ovw-card.governance { border-left: 4px solid #b45309; }
+  .ovw-card.governance .badge { background: linear-gradient(135deg, #92400e 0%, #b45309 100%); }
+  .ovw-card.local-church { border-left: 4px solid #ea580c; background: #fff7ed; }
+  .ovw-card.local-church .badge { background: linear-gradient(135deg, #c2410c 0%, #ea580c 100%); }
+  .ovw-card.province { border-left: 4px solid #1d4ed8; }
+  .ovw-card.province .badge { background: linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 100%); }
+  .ovw-card.foundation { border-left: 4px solid #047857; }
+  .ovw-card.foundation .badge { background: linear-gradient(135deg, #065f46 0%, #047857 100%); }
+  .ovw-card.schools { border-left: 4px solid #166534; }
+  .ovw-card.schools .badge { background: linear-gradient(135deg, #14532d 0%, #166534 100%); }
+  .ovw-card.mission { border-left: 4px solid #c9a74e; background: #fffbeb; }
+  .ovw-card.mission .badge { background: linear-gradient(135deg, #b45309 0%, #c9a74e 100%); }
+
+  /* School chips inside Schools card */
+  .schools-chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+  .schools-chips .ch-chip { display: inline-block; padding: 3px 9px; background: #f0fdf4; border: 1px solid #86efac; border-radius: 4px; font-family: 'Cinzel', serif; font-size: 11px; font-weight: 700; color: #166534; }
+
+  .ovw-foot { margin: 40px auto 20px; padding: 16px; max-width: 920px; border-top: 1px dashed var(--border, #e6e1d6); font-size: 11.5px; color: var(--text-soft, #999); font-style: italic; text-align: center; }
+  .ovw-foot code { font-family: 'Inter', monospace; background: #fafaf7; padding: 1px 5px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="brand">Brothers of Saint Gabriel<small>THAILAND PROVINCE</small></a>
+  <div class="links">
+    <a href="/">Home</a><a href="/about/">About</a><a href="/leadership/">Leadership</a><a href="/brothers/">Brothers</a><a href="/vocations/">Vocations</a><a href="/spirituality/">Spirituality</a><a href="/news/">News</a><a href="/in-memoriam/">In Memoriam</a><a href="/connect/">Connect</a><a href="/overview/" class="active">Overview</a>
+  </div>
+</nav>
+
+<section class="section">
+  <div class="ovw-hero">
+    <h1>OVERVIEW · ภาพรวมรากเหง้า → ปลายน้ำพันธกิจ</h1>
+    <div class="sub">From the Spiritual Tree to the Mission · 8 layers · canonical mapping</div>
+    <div class="meta">canonical: <code>identity_montfortian_roots.md</code> + <code>01_roots_rome_master.md</code> + <code>_BIG_PICTURE.md</code></div>
+  </div>
+
+  <div class="ovw-stack">
+
+    <!-- 1. Holy See -->
+    <div class="ovw-card global">
+      <div class="badge"><span class="num">1</span><span class="icon">⛪</span></div>
+      <div class="body">
+        <h3>HOLY SEE · VATICAN</h3>
+        <div class="desc">ศูนย์กลางพระศาสนจักรคาทอลิก</div>
+        <a class="url-link" href="https://www.vatican.va" target="_blank" rel="noopener">vatican.va ↗</a>
+      </div>
+    </div>
+    <div class="ovw-arrow">▼</div>
+
+    <!-- 2. Founder -->
+    <div class="ovw-card founder">
+      <div class="badge"><span class="num">2</span><span class="icon">✝️</span></div>
+      <div class="body">
+        <h3>SAINT LOUIS-MARIE DE MONTFORT <span class="en">· 1673–1716</span></h3>
+        <div class="desc">พระสงฆ์ฝรั่งเศส · พระธรรมทูตเดินเท้า · <strong>"GOD ALONE"</strong> (Dieu Seul)</div>
+        <a class="url-link" href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net ↗ · งานเขียน 26 เล่ม</a>
+      </div>
+    </div>
+    <div class="ovw-arrow">▼</div>
+
+    <!-- 3. 3 Congregations -->
+    <div class="ovw-card congregation">
+      <div class="badge"><span class="num">3</span><span class="icon">🌿</span></div>
+      <div class="body">
+        <h3>3 MONTFORTIAN CONGREGATIONS <span class="en">· Pontifical Right</span></h3>
+        <div class="desc">3 คณะพี่น้องจากนักบุญหลุยส์ มงฟอร์ต</div>
+        <a class="url-link" href="https://www.montfortian.info" target="_blank" rel="noopener">montfortian.info ↗ · Family hub</a>
+        <div class="sub-list">
+          <span class="sub-item"><strong>FDLS · 1703</strong> Daughters of Wisdom (ร่วมกับนักบุญมารี-หลุยส์ ตรีเชต์) · งานพยาบาล/การศึกษา/สังคม <a class="url-link" style="padding:1px 8px;font-size:0.78em;margin-left:4px;" href="https://www.fdlsagesse.org" target="_blank" rel="noopener">fdlsagesse.org ↗</a></span>
+          <span class="sub-item"><strong>SMM · 1705</strong> Montfort Missionaries / Company of Mary · เทศนาภาคสนาม <a class="url-link" style="padding:1px 8px;font-size:0.78em;margin-left:4px;" href="https://www.montfort.org.uk" target="_blank" rel="noopener">montfort.org.uk ↗</a></span>
+          <span class="sub-item"><strong>SG · 1705</strong> Brothers of Saint Gabriel · การศึกษา · 40+ ประเทศ ← <strong>เซลล์ของเรา</strong> <a class="url-link" style="padding:1px 8px;font-size:0.78em;margin-left:4px;" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">stgabrielinst.org ↗</a></span>
+        </div>
+      </div>
+    </div>
+    <div class="ovw-arrow">▼</div>
+
+    <!-- 4a + 4b twin (parallel) -->
+    <div class="ovw-twin">
+      <div class="ovw-card governance compact">
+        <div class="badge"><span class="num">4a</span><span class="icon">🏛️</span></div>
+        <div class="body">
+          <h3>GENERALATE · ROME</h3>
+          <div class="desc">Central Administration · ศูนย์กลางปกครองคณะภราดาทั่วโลก · Superior General + General Council · <strong>Religious governance</strong></div>
+          <a class="url-link" href="https://www.stgabrielinst.org" target="_blank" rel="noopener">stgabrielinst.org ↗</a>
+        </div>
+      </div>
+      <div class="ovw-card local-church compact">
+        <div class="badge"><span class="num">4b</span><span class="icon">⛪</span></div>
+        <div class="body">
+          <h3>พระศาสนจักรคาทอลิกในไทย</h3>
+          <div class="desc"><strong>Local Church Thailand</strong> · ไม่ subordinate ต่อ Generalate · เป็น Local Church อิสระที่ Brothers SG ปฏิบัติพันธกิจภายใต้</div>
+          <a class="url-link" href="https://www.cbct.net" target="_blank" rel="noopener">cbct.net ↗ · CBCT</a>
+        </div>
+      </div>
+    </div>
+    <div class="ovw-arrow">▼</div>
+
+    <!-- 5. Thai Province -->
+    <div class="ovw-card province">
+      <div class="badge"><span class="num">5</span><span class="icon">🌟</span></div>
+      <div class="body">
+        <h3>BROTHERS OF SAINT GABRIEL · THAILAND PROVINCE</h3>
+        <div class="desc">คณะภราดาเซนต์คาเบรียลแขวงประเทศไทย · <strong>1901</strong> · ~72 ภราดา · 19 Community (บ้านภราดาประจำแต่ละโรงเรียน)<br><strong>อยู่ใน Local Church Thailand (4b)</strong> + <strong>รายงาน Generalate Rome (4a)</strong></div>
+        <a class="url-link" href="https://bsgthailand.org" target="_blank" rel="noopener">bsgthailand.org ↗</a>
+      </div>
+    </div>
+    <div class="ovw-arrow">▼</div>
+
+    <!-- 6. Foundation -->
+    <div class="ovw-card foundation">
+      <div class="badge"><span class="num">6</span><span class="icon">🏛️</span></div>
+      <div class="body">
+        <h3>FOUNDATION · มูลนิธิคณะเซนต์คาเบรียลแห่งประเทศไทย</h3>
+        <div class="desc">นิติบุคคลตามกฎหมายไทย · <strong>1937</strong> · 6 Commissions</div>
+        <a class="url-link" href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org ↗</a>
+      </div>
+    </div>
+    <div class="ovw-arrow">▼</div>
+
+    <!-- 7. 15 Schools -->
+    <div class="ovw-card schools">
+      <div class="badge"><span class="num">7</span><span class="icon">🏫</span></div>
+      <div class="body">
+        <h3>15 SCHOOLS NETWORK</h3>
+        <div class="desc">ดำเนินการในประเทศไทย · ผอ. = ภราดา</div>
+        <a class="url-link" href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net ↗ · feed รวม</a>
+        <div class="schools-chips">
+          <span class="ch-chip">AC</span><span class="ch-chip">ACP</span><span class="ch-chip">SG</span><span class="ch-chip">MC</span><span class="ch-chip">MCP</span><span class="ch-chip">ACS</span><span class="ch-chip">SLC</span><span class="ch-chip">ACL</span><span class="ch-chip">ACT</span><span class="ch-chip">ACR</span><span class="ch-chip">ACU</span><span class="ch-chip">ACN</span><span class="ch-chip">ACSP</span><span class="ch-chip">ATSN</span><span class="ch-chip">ACEP</span>
+        </div>
+      </div>
+    </div>
+    <div class="ovw-arrow">▼</div>
+
+    <!-- 8. Mission (golden) -->
+    <div class="ovw-card mission">
+      <div class="badge"><span class="num">8</span><span class="icon">👶</span></div>
+      <div class="body">
+        <h3>พันธกิจการศึกษา · เด็กเป็นศูนย์กลาง</h3>
+        <div class="desc">ตาม <strong>MEC</strong> · Holistic Formation · พัฒนาทั้งสติปัญญา จิตใจ ร่างกาย จิตวิญญาณ · <strong>Marian Spirit</strong> · <strong>เพื่อเด็กยากจนเป็นพิเศษ</strong> (Founder spirit)</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="ovw-foot">
+    canonical: <code>identity_montfortian_roots.md</code> + <code>01_roots_rome_master.md</code> + <code>_BIG_PICTURE.md</code><br>
+    ห้ามตัดราก (R10) · พระศาสนจักรไทย <strong>ไม่ subordinate</strong> ต่อ Generalate · 2 หมวก: คณะนักบวช (Canon Law) + มูลนิธิ (Thai civil law)
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div><h4>BROTHERS OF SAINT GABRIEL</h4><p>Thailand Province · serving since 1901.</p></div>
+    <div><h4>SISTER SITES</h4><ul>
+      <li><a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a></li>
+      <li><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a></li>
+    </ul></div>
+    <div><h4>NAVIGATE</h4><ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/leadership/">Leadership</a></li>
+      <li><a href="/brothers/">Brothers</a></li>
+      <li><a href="/overview/">Overview</a></li>
+    </ul></div>
+  </div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council.</div>
+</footer>
+</body>
+</html>
