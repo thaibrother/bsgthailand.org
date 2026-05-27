@@ -12,3 +12,6 @@ ehthumbs.db
 *.swo
 .idea/
 .vscode/
+
+# Local snapshots (R14 BATCH SNAPSHOT · do not push)
+_snapshots/

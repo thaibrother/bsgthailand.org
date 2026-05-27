@@ -2,11 +2,36 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Our Brothers · Brothers of Saint Gabriel · Thailand Province</title>
-<meta name="description" content="The Brothers presently serving in the Thailand Province of the Brothers of Saint Gabriel — approximately seventy-two Brothers in nineteen communities.">
+<title>Our Brothers · By Community · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="The Brothers presently serving in the Thailand Province — approximately seventy-two Brothers organised across nineteen communities. Obedience effective 1 May 2026.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/style.css">
+<style>
+  :root { --navy: #1a3a5c; --gold: #c9a74e; --cream: #fafaf7; --light-gold: #e8d5a0; --dark-navy: #0f2440; }
+  .nav-tabs { display: flex; justify-content: center; gap: 8px; padding: 16px 20px; background: white; border-bottom: 2px solid #eee; flex-wrap: wrap; }
+  .nav-tab { padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95em; border: 2px solid var(--navy); color: var(--navy); }
+  .nav-tab.active { background: var(--navy); color: white; }
+  .nav-tab:hover:not(.active) { background: var(--navy); color: white; opacity: 0.85; }
+  .stats-bar { display: flex; justify-content: center; gap: 40px; padding: 20px; background: white; border-bottom: 1px solid #eee; }
+  .stat-item { text-align: center; } .stat-number { font-size: 2em; font-weight: 700; color: var(--navy); } .stat-label { font-size: 0.85em; color: #666; }
+  .search-box { max-width: 500px; margin: 20px auto; padding: 0 20px; }
+  .search-box input { width: 100%; padding: 12px 20px; border: 2px solid #ddd; border-radius: 30px; font-size: 1em; outline: none; }
+  .search-box input:focus { border-color: var(--gold); }
+  .group-section { margin-bottom: 32px; }
+  .group-header { font-family: 'Cinzel', serif; font-size: 1.3em; color: var(--navy); padding: 12px 20px; background: linear-gradient(90deg, rgba(26,58,92,0.08), transparent); border-left: 4px solid var(--gold); margin-bottom: 16px; border-radius: 0 8px 8px 0; }
+  .brothers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; }
+  .brother-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s; }
+  .brother-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.12); transform: translateY(-3px); }
+  .brother-photo { width: 100%; height: 240px; background: linear-gradient(135deg, var(--navy) 0%, var(--dark-navy) 100%); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+  .brother-img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
+  .photo-placeholder { width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(135deg, var(--gold), var(--light-gold)); display: flex; align-items: center; justify-content: center; font-size: 32px; font-weight: 700; color: var(--navy); font-family: 'Cinzel', serif; }
+  .brother-badge { position: absolute; top: 10px; right: 10px; font-size: 0.7em; padding: 4px 10px; border-radius: 20px; font-weight: 600; background: var(--gold); color: var(--dark-navy); }
+  .brother-info { padding: 14px; }
+  .brother-name { font-family: 'Cinzel', serif; font-size: 1em; font-weight: 700; color: var(--navy); margin-bottom: 6px; }
+  .brother-community { font-weight: 600; color: var(--gold); font-size: 0.85em; }
+  .brother-role { color: #666; font-size: 0.8em; margin-top: 4px; }
+</style>
 </head>
 <body>
 <nav class="site-nav">
@@ -16,22 +41,143 @@
   </div>
 </nav>
 
-<section class="section">
+<section class="section" style="padding-bottom:0;">
   <p class="small muted"><a href="/brothers/">← Back to Brothers</a></p>
   <h2>OUR BROTHERS</h2>
   <div class="line"></div>
-  <p class="lede">Approximately seventy-two Brothers serve in the Thailand Province, organised across nineteen communities, formation houses, and apostolic works. Together they form one Religious family under the Provincial Superior.</p>
+  <p class="lede">Approximately seventy-two Brothers serve in the Thailand Province, organised across nineteen communities, formation houses, and apostolic works. Obedience effective 1 May 2026.</p>
 
   <blockquote class="callout">
-    Out of pastoral discretion, the Brothers' birth dates are not published. Where appropriate, the year of perpetual profession is shown to mark the depth of religious commitment.
+    Out of pastoral discretion, the Brothers' birth dates are not published. The year of perpetual profession may be shown elsewhere to mark the depth of religious commitment.
   </blockquote>
-
-  <h3 style="margin-top:36px">BROTHERS OF THE PROVINCE</h3>
-  <div class="line"></div>
-  <p>A complete list of the Brothers presently serving, with their community assignment and year of perpetual profession, is being prepared in collaboration with the Provincial Secretariat. It will appear here once verified against the latest annual <a href="transfers.html">Letter of Obedience</a>.</p>
-
-  <p class="small muted" style="margin-top:24px">For the Brothers serving as Provincial Superior, Councillors, and Bursar, see <a href="/leadership/">Leadership</a>. For the communities where the Brothers live and pray together, see <a href="houses.html">Communities</a>.</p>
 </section>
+
+<div class="nav-tabs">
+  <a href="list.html" class="nav-tab active">By Community</a>
+  <a href="by-vows.html" class="nav-tab">By First Vows</a>
+  <a href="houses.html" class="nav-tab">Communities &amp; Houses</a>
+  <a href="transfers.html" class="nav-tab">Annual Obedience</a>
+</div>
+
+<div class="stats-bar">
+  <div class="stat-item"><div class="stat-number">65</div><div class="stat-label">Brothers</div></div>
+  <div class="stat-item"><div class="stat-number">19</div><div class="stat-label">Communities</div></div>
+  <div class="stat-item"><div class="stat-number">6</div><div class="stat-label">Provincial Council + Bursar</div></div>
+</div>
+
+<div class="search-box"><input type="text" id="search-input" placeholder="Search by name or community..."></div>
+
+<section class="section">
+  <div id="content-area"></div>
+</section>
+
+<script>
+  const brothers = [
+            {"name": "Thinaratana", "full": "Thinaratana Komkris", "community": "GPC", "house_full": "Saint Gabriel's Foundation Building (ทองหล่อ)", "role": "Superior (1)", "provincial": false, "provincialTitle": "", "initials": "TK", "photo": "/images/brothers/komkris.JPG"},
+            {"name": "Anuwat", "full": "Anuwat Wipakthamrongkun", "community": "GPC", "house_full": "Saint Gabriel's Foundation Building (ทองหล่อ)", "role": "Member & L. Bursar", "provincial": false, "provincialTitle": "", "initials": "AW", "photo": "/images/brothers/wipakthamrongkun.JPG"},
+            {"name": "Prawat", "full": "Prawat Sutthinont", "community": "GPC", "house_full": "Saint Gabriel's Foundation Building (ทองหล่อ)", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "PS", "photo": "/images/brothers/sutthinont.JPG"},
+            {"name": "Pathanant", "full": "Pathanant Chaiyara", "community": "GPC", "house_full": "Saint Gabriel's Foundation Building (ทองหล่อ)", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "PC", "photo": "/images/brothers/chaiyara.JPG"},
+            {"name": "Teerachai", "full": "Teerachai Charoensamran", "community": "GPC", "house_full": "Saint Gabriel's Foundation Building (ทองหล่อ)", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "TC", "photo": "/images/brothers/charoensamran.png"},
+            {"name": "Sa-ard", "full": "Sa-ard Vongsacharoenbhakdi", "community": "GPC", "house_full": "Saint Gabriel's Foundation Building (ทองหล่อ)", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "SV", "photo": "/images/brothers/vongsacharoenbhakdi.JPG"},
+            {"name": "Anusak", "full": "Anusak Nidhibhadrabhorn", "community": "GPC", "house_full": "Saint Gabriel's Foundation Building (ทองหล่อ)", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "AN", "photo": "/images/brothers/nidhibhadrabhorn.JPG"},
+            {"name": "Jaran", "full": "Jaran Srila", "community": "GPC", "house_full": "Saint Gabriel's Foundation Building (ทองหล่อ)", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "JS", "photo": "/images/brothers/srila.JPG"},
+            {"name": "Monthol", "full": "Monthol Prathumarach", "community": "ACSP", "house_full": "Assumption College Samut Prakan", "role": "Superior (5) cum Director (5)", "provincial": false, "provincialTitle": "", "initials": "MP", "photo": "/images/brothers/prathumarach.JPG"},
+            {"name": "Panuwat", "full": "Panuwat Mouentup", "community": "ACSP", "house_full": "Assumption College Samut Prakan", "role": "Member, Manager & L. Bursar", "provincial": false, "provincialTitle": "", "initials": "PM", "photo": "/images/brothers/mouentup.JPG"},
+            {"name": "Kornkavee", "full": "Kornkavee Yindeevech", "community": "ACSP", "house_full": "Assumption College Samut Prakan", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "KY", "photo": "/images/brothers/yindeevech.JPG"},
+            {"name": "Dechachai", "full": "Dechachai Sripicharn", "community": "AC/ACP", "house_full": "Assumption College + แผนกประถม", "role": "Superior (2) cum Director AC (2)", "provincial": false, "provincialTitle": "", "initials": "DS", "photo": "/images/brothers/sripicharn.JPG"},
+            {"name": "Manit", "full": "Manit Sakonthawat", "community": "AC/ACP", "house_full": "Assumption College + แผนกประถม", "role": "Director ACP (2)", "provincial": true, "provincialTitle": "Provincial Bursar", "initials": "MS", "photo": "/images/brothers/sakonthawat.JPG"},
+            {"name": "Apisit", "full": "Apisit Ngamwong", "community": "AC/ACP", "house_full": "Assumption College + แผนกประถม", "role": "Member (ACP) & L. Bursar", "provincial": false, "provincialTitle": "", "initials": "AN", "photo": "/images/brothers/ngamwong.png"},
+            {"name": "Patcharapakorn", "full": "Patcharapakorn Langbubpha", "community": "AC/ACP", "house_full": "Assumption College + แผนกประถม", "role": "Member (AC)", "provincial": false, "provincialTitle": "", "initials": "PL", "photo": "/images/brothers/langbubpha.JPG"},
+            {"name": "Viriya", "full": "Viriya Chandavarodom", "community": "AC/ACP", "house_full": "Assumption College + แผนกประถม", "role": "Member in Retirement", "provincial": false, "provincialTitle": "", "initials": "VC", "photo": "/images/brothers/chandavarodom.jpg"},
+            {"name": "Achin", "full": "Achin Tengtrakul", "community": "SG", "house_full": "Saint Gabriel's College", "role": "Superior (2) & Manager", "provincial": false, "provincialTitle": "", "initials": "AT", "photo": "/images/brothers/tengtrakul.JPG"},
+            {"name": "Surakit", "full": "Surakit Srisarankulwong", "community": "SG", "house_full": "Saint Gabriel's College", "role": "Director (5)", "provincial": true, "provincialTitle": "Provincial Superior", "initials": "SS", "photo": "/images/brothers/srisarankulwong.JPG"},
+            {"name": "Arwut", "full": "Arwut Silaket", "community": "SG", "house_full": "Saint Gabriel's College", "role": "Member & L. Bursar", "provincial": false, "provincialTitle": "", "initials": "AS", "photo": "/images/brothers/silaket.JPG"},
+            {"name": "Phiranant", "full": "Phiranant Numkanisorn", "community": "SG", "house_full": "Saint Gabriel's College", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "PN", "photo": "/images/brothers/numkanisorn.JPG"},
+            {"name": "Siriroj", "full": "Siriroj Viriyasirimongkol", "community": "SG", "house_full": "Saint Gabriel's College", "role": "Member in Retirement", "provincial": false, "provincialTitle": "", "initials": "SV", "photo": "/images/brothers/viriyasirimongkol.JPG"},
+            {"name": "Visith", "full": "Visith Srivichairatana", "community": "ACT", "house_full": "Assumption College Thonburi", "role": "Superior (2)", "provincial": false, "provincialTitle": "", "initials": "VS", "photo": "/images/brothers/srivichairatana.JPG"},
+            {"name": "Verayuth", "full": "Verayuth Boonpram", "community": "ACT", "house_full": "Assumption College Thonburi", "role": "Director (2)", "provincial": true, "provincialTitle": "Provincial Councilor", "initials": "VB", "photo": "/images/brothers/boonpram.JPG"},
+            {"name": "Supharoek", "full": "Supharoek Singhaphan", "community": "ACT", "house_full": "Assumption College Thonburi", "role": "Member, Manager & L. Bursar", "provincial": false, "provincialTitle": "", "initials": "SS", "photo": "/images/brothers/singhaphan.JPG"},
+            {"name": "Siam", "full": "Siam Kaewprasith", "community": "ACT", "house_full": "Assumption College Thonburi", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "SK", "photo": "/images/brothers/kaewprasith.JPG"},
+            {"name": "Phiraphongs", "full": "Phiraphongs Darathai", "community": "ACT", "house_full": "Assumption College Thonburi", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "PD", "photo": "/images/brothers/darathai.JPG"},
+            {"name": "Bhuvarindhara", "full": "Bhuvarindhara Khemrachanon", "community": "SGS", "house_full": "Saint Gabriel's Scholasticate (นครปฐม)", "role": "Master of Scholastics (1)", "provincial": false, "provincialTitle": "", "initials": "BK", "photo": "/images/brothers/khemrachanon.JPG"},
+            {"name": "Meesakdi", "full": "Meesakdi Wongprachanukul", "community": "SGS", "house_full": "Saint Gabriel's Scholasticate (นครปฐม)", "role": "Socius", "provincial": false, "provincialTitle": "", "initials": "MW", "photo": "/images/brothers/wongprachanukul.JPG"},
+            {"name": "Supanun", "full": "Supanun Khantapreecha", "community": "ACEP", "house_full": "Assumption College English Programme (สมุทรสาคร)", "role": "Superior (1) cum Director (1)", "provincial": true, "provincialTitle": "Provincial Councilor", "initials": "SK", "photo": "/images/brothers/khantapreecha.JPG"},
+            {"name": "Natton", "full": "Natton Suphon", "community": "ACEP", "house_full": "Assumption College English Programme (สมุทรสาคร)", "role": "Member & L. Bursar", "provincial": false, "provincialTitle": "", "initials": "NS", "photo": "/images/brothers/suphon.JPG"},
+            {"name": "Wanwasan", "full": "Wanwasan Sukul", "community": "ACEP", "house_full": "Assumption College English Programme (สมุทรสาคร)", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "WS", "photo": ""},
+            {"name": "Viharn", "full": "Viharn Srihaphol", "community": "SLC", "house_full": "Saint Louis College (ฉะเชิงเทรา)", "role": "Superior (2)", "provincial": false, "provincialTitle": "", "initials": "VS", "photo": "/images/brothers/srihaphol.JPG"},
+            {"name": "Kullachart", "full": "Kullachart Juntachoto", "community": "SLC", "house_full": "Saint Louis College (ฉะเชิงเทรา)", "role": "Director (5)", "provincial": false, "provincialTitle": "", "initials": "KJ", "photo": "/images/brothers/juntachoto.JPG"},
+            {"name": "Pakpoom", "full": "Pakpoom Jaisamret", "community": "SLC", "house_full": "Saint Louis College (ฉะเชิงเทรา)", "role": "Member & L. Bursar", "provincial": false, "provincialTitle": "", "initials": "PJ", "photo": "/images/brothers/jaisamret.png"},
+            {"name": "Surasit", "full": "Surasit Sukchai", "community": "ACS", "house_full": "Assumption College Sriracha", "role": "Superior (5)", "provincial": false, "provincialTitle": "", "initials": "SS", "photo": "/images/brothers/sukchai.JPG"},
+            {"name": "Pisutr", "full": "Pisutr Vapiso", "community": "ACS", "house_full": "Assumption College Sriracha", "role": "Director (5)", "provincial": true, "provincialTitle": "Provincial Councilor", "initials": "PV", "photo": "/images/brothers/vapiso.JPG"},
+            {"name": "Krissada", "full": "Krissada Ngamwong", "community": "ACS", "house_full": "Assumption College Sriracha", "role": "Member & L. Bursar", "provincial": false, "provincialTitle": "", "initials": "KN", "photo": "/images/brothers/ngamwong.JPG"},
+            {"name": "Pittaya", "full": "Pittaya Tueaita", "community": "ACS", "house_full": "Assumption College Sriracha", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "PT", "photo": "/images/brothers/tueaita.JPG"},
+            {"name": "Chumpol", "full": "Chumpol Deesutchit", "community": "ACS", "house_full": "Assumption College Sriracha", "role": "Member in Retirement", "provincial": false, "provincialTitle": "", "initials": "CD", "photo": "/images/brothers/deesutchit.jpg"},
+            {"name": "Sunant", "full": "Sunant Yotharaksa", "community": "ACS", "house_full": "Assumption College Sriracha", "role": "Member in Retirement", "provincial": false, "provincialTitle": "", "initials": "SY", "photo": "/images/brothers/yotharaksa.JPG"},
+            {"name": "Rachanon", "full": "Rachanon Udomsungnern", "community": "SLJ", "house_full": "Saint Louis Mary's Juniorate (ศรีราชา)", "role": "Master of Juniors (1)", "provincial": false, "provincialTitle": "", "initials": "RU", "photo": "/images/brothers/udomsungnern.JPG"},
+            {"name": "Sarawut", "full": "Sarawut Singyai", "community": "SLJ", "house_full": "Saint Louis Mary's Juniorate (ศรีราชา)", "role": "Socius & L. Bursar", "provincial": false, "provincialTitle": "", "initials": "SS", "photo": "/images/brothers/singyai.png"},
+            {"name": "Amnuay", "full": "Amnuay Yoonprayong", "community": "SLJ", "house_full": "Saint Louis Mary's Juniorate (ศรีราชา)", "role": "Spiritual Guidance", "provincial": false, "provincialTitle": "", "initials": "AY", "photo": "/images/brothers/yoonprayong.JPG"},
+            {"name": "Thankorn", "full": "Thankorn Tansuwongs", "community": "ACR", "house_full": "Assumption College Rayong", "role": "Superior (2)", "provincial": false, "provincialTitle": "", "initials": "TT", "photo": "/images/brothers/tansuwongs.JPG"},
+            {"name": "Seksan", "full": "Seksan Sakonthawat", "community": "ACR", "house_full": "Assumption College Rayong", "role": "Director (2)", "provincial": false, "provincialTitle": "", "initials": "SS", "photo": "/images/brothers/sakonthawat.JPG"},
+            {"name": "Thanapoom", "full": "Thanapoom Saiprom", "community": "ACR", "house_full": "Assumption College Rayong", "role": "Member & L. Bursar", "provincial": false, "provincialTitle": "", "initials": "TS", "photo": "/images/brothers/saiprom.png"},
+            {"name": "Thaksabutr", "full": "Thaksabutr Kraiprasit", "community": "MC/MCP", "house_full": "Montfort College (เชียงใหม่)", "role": "Superior (5) cum Director MCP (5)", "provincial": false, "provincialTitle": "", "initials": "TK", "photo": "/images/brothers/kraiprasit.JPG"},
+            {"name": "Chamnan", "full": "Chamnan Laoruckphon", "community": "MC/MCP", "house_full": "Montfort College (เชียงใหม่)", "role": "Director MC (5)", "provincial": true, "provincialTitle": "Provincial Councilor", "initials": "CL", "photo": "/images/brothers/laoruckphon.JPG"},
+            {"name": "Sarawut", "full": "Sarawut Yuchompoo", "community": "MC/MCP", "house_full": "Montfort College (เชียงใหม่)", "role": "Member (MC) & L. Bursar", "provincial": false, "provincialTitle": "", "initials": "SY", "photo": "/images/brothers/yuchompoo.JPG"},
+            {"name": "Kittisak", "full": "Kittisak Charoensri", "community": "MC/MCP", "house_full": "Montfort College (เชียงใหม่)", "role": "Member (MCP)", "provincial": false, "provincialTitle": "", "initials": "KC", "photo": "/images/brothers/charoensri.JPG"},
+            {"name": "Witthaya", "full": "Witthaya Thepkom", "community": "ACL", "house_full": "Assumption College Lampang", "role": "Superior (2) cum Director (2)", "provincial": false, "provincialTitle": "", "initials": "WT", "photo": "/images/brothers/thepkom.JPG"},
+            {"name": "Prajak", "full": "Prajak Nansrithong", "community": "ACL", "house_full": "Assumption College Lampang", "role": "Member & Bursar", "provincial": false, "provincialTitle": "", "initials": "PN", "photo": "/images/brothers/nansrithong.jpg"},
+            {"name": "Nattapong", "full": "Nattapong Wantaprom", "community": "ACL", "house_full": "Assumption College Lampang", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "NW", "photo": ""},
+            {"name": "Nontacha", "full": "Nontacha Srivilai", "community": "MNS", "house_full": "De Montfort Novitiate (เชียงใหม่)", "role": "Master of Novices (1)", "provincial": false, "provincialTitle": "", "initials": "NS", "photo": "/images/brothers/srivilai.JPG"},
+            {"name": "Vicharn", "full": "Vicharn Saengharn", "community": "MNS", "house_full": "De Montfort Novitiate (เชียงใหม่)", "role": "Socius", "provincial": false, "provincialTitle": "", "initials": "VS", "photo": "/images/brothers/saengharn.JPG"},
+            {"name": "Anurak", "full": "Anurak Nidhibhadrabhorn", "community": "MHE", "house_full": "Montfort Home for Education (เชียงใหม่)", "role": "Director", "provincial": false, "provincialTitle": "", "initials": "AN", "photo": "/images/brothers/nidhibhadrabhorn.JPG"},
+            {"name": "Dechachai", "full": "Dechachai Sripicharn", "community": "MHE", "house_full": "Montfort Home for Education (เชียงใหม่)", "role": "Supervisor", "provincial": false, "provincialTitle": "", "initials": "DS", "photo": "/images/brothers/sripicharn.JPG"},
+            {"name": "Khanchit", "full": "Khanchit Seesawan", "community": "ACN", "house_full": "Assumption College Nakhon Ratchasima", "role": "Superior (1) cum Director (2)", "provincial": false, "provincialTitle": "", "initials": "KS", "photo": "/images/brothers/seesawan.JPG"},
+            {"name": "Palakorn", "full": "Palakorn Pianpan", "community": "ACN", "house_full": "Assumption College Nakhon Ratchasima", "role": "Member & L. Bursar", "provincial": false, "provincialTitle": "", "initials": "PP", "photo": "/images/brothers/pianpan.JPG"},
+            {"name": "Anucha", "full": "Anucha Karunprot", "community": "ACN", "house_full": "Assumption College Nakhon Ratchasima", "role": "Member in Retirement", "provincial": false, "provincialTitle": "", "initials": "AK", "photo": "/images/brothers/karunprot.jpg"},
+            {"name": "Kriangsak", "full": "Kriangsak Mayod", "community": "ACU", "house_full": "Assumption College Ubon Ratchathani", "role": "Superior (5) cum Director (5)", "provincial": false, "provincialTitle": "", "initials": "KM", "photo": "/images/brothers/mayod.JPG"},
+            {"name": "Pichitphon", "full": "Pichitphon Buraphan", "community": "ACU", "house_full": "Assumption College Ubon Ratchathani", "role": "Member, Manager & L. Bursar", "provincial": false, "provincialTitle": "", "initials": "PB", "photo": "/images/brothers/buraphan.JPG"},
+            {"name": "Warut", "full": "Warut Waenphet", "community": "ACU", "house_full": "Assumption College Ubon Ratchathani", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "WW", "photo": "/images/brothers/waenphet.png"},
+            {"name": "Jamrus", "full": "Jamrus Kaewamka", "community": "ATSN", "house_full": "Assumption Technical School Nakhon Phanom", "role": "Superior (2) cum Director (2)", "provincial": false, "provincialTitle": "", "initials": "JK", "photo": "/images/brothers/kaewamka.JPG"},
+            {"name": "Pongpat", "full": "Pongpat Wanse", "community": "ATSN", "house_full": "Assumption Technical School Nakhon Phanom", "role": "Member & L. Bursar", "provincial": false, "provincialTitle": "", "initials": "PW", "photo": ""},
+            {"name": "Sirichai", "full": "Sirichai Phangrak", "community": "ATSN", "house_full": "Assumption Technical School Nakhon Phanom", "role": "Member", "provincial": false, "provincialTitle": "", "initials": "SP", "photo": "/images/brothers/phangrak.JPG"}
+        ];
+
+  function render(filter='') {
+    const area = document.getElementById('content-area');
+    const groups = {};
+    const f = filter.toLowerCase();
+    brothers.forEach(b => {
+      if (f && !b.full.toLowerCase().includes(f) && !b.community.toLowerCase().includes(f) && !b.house_full.toLowerCase().includes(f)) return;
+      const key = b.community + '|' + b.house_full;
+      if (!groups[key]) groups[key] = [];
+      groups[key].push(b);
+    });
+
+    let html = '';
+    Object.entries(groups).forEach(([key, list]) => {
+      const [code, name] = key.split('|');
+      html += '<div class="group-section">';
+      html += '<h3 class="group-header">' + code + ' &middot; ' + name + '</h3>';
+      html += '<div class="brothers-grid">';
+      list.forEach(b => {
+        const photo = b.photo
+          ? '<img src="' + b.photo + '" class="brother-img" alt="' + b.full + '" loading="lazy">'
+          : '<div class="photo-placeholder">' + b.initials + '</div>';
+        const badge = b.provincial ? '<span class="brother-badge">' + (b.provincialTitle || 'Provincial') + '</span>' : '';
+        html += '<div class="brother-card">';
+        html += '<div class="brother-photo">' + photo + badge + '</div>';
+        html += '<div class="brother-info">';
+        html += '<div class="brother-name">Bro. ' + b.full + '</div>';
+        html += '<div class="brother-community">' + b.community + '</div>';
+        html += '<div class="brother-role">' + b.role + '</div>';
+        html += '</div></div>';
+      });
+      html += '</div></div>';
+    });
+    area.innerHTML = html || '<p class="small muted" style="text-align:center;padding:40px;">No brothers found.</p>';
+  }
+  render();
+  document.getElementById('search-input').addEventListener('input', e => render(e.target.value));
+</script>
 
 <footer class="site-footer">
   <div class="inner">
@@ -48,7 +194,7 @@
       <li><a href="/connect/">Connect</a></li>
     </ul></div>
   </div>
-  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council.</div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council. Source: Obedience 1 May 2026.</div>
 </footer>
 </body>
 </html>

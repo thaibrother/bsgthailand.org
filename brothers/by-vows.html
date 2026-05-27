@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Brothers · By First Vows · Brothers of Saint Gabriel · Thailand Province</title>
+<meta name="description" content="The Brothers of the Thailand Province organised by year of First Vows — marking the depth of religious commitment from youngest profession to elder Brothers.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<style>
+  :root { --navy: #1a3a5c; --gold: #c9a74e; --cream: #fafaf7; --light-gold: #e8d5a0; --dark-navy: #0f2440; }
+  .nav-tabs { display: flex; justify-content: center; gap: 8px; padding: 16px 20px; background: white; border-bottom: 2px solid #eee; flex-wrap: wrap; }
+  .nav-tab { padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95em; border: 2px solid var(--navy); color: var(--navy); }
+  .nav-tab.active { background: var(--navy); color: white; }
+  .nav-tab:hover:not(.active) { background: var(--navy); color: white; opacity: 0.85; }
+  .stats-bar { display: flex; justify-content: center; gap: 40px; padding: 20px; background: white; border-bottom: 1px solid #eee; }
+  .stat-item { text-align: center; } .stat-number { font-size: 2em; font-weight: 700; color: var(--navy); } .stat-label { font-size: 0.85em; color: #666; }
+  .group-section { margin-bottom: 32px; }
+  .group-header { font-family: 'Cinzel', serif; font-size: 1.3em; color: var(--navy); padding: 12px 20px; background: linear-gradient(90deg, rgba(201,167,78,0.15), transparent); border-left: 4px solid var(--navy); margin-bottom: 16px; border-radius: 0 8px 8px 0; }
+  .brothers-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+  .brother-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  .brother-photo { width: 100%; height: 200px; background: linear-gradient(135deg, var(--navy), var(--dark-navy)); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+  .brother-img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
+  .photo-placeholder { width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, var(--gold), var(--light-gold)); display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 700; color: var(--navy); font-family: 'Cinzel', serif; }
+  .brother-badge { position: absolute; top: 10px; right: 10px; font-size: 0.7em; padding: 4px 10px; border-radius: 20px; font-weight: 600; background: var(--gold); color: var(--dark-navy); }
+  .vow-year-badge { position: absolute; bottom: 10px; left: 10px; font-size: 0.75em; padding: 4px 10px; border-radius: 20px; font-weight: 700; background: rgba(255,255,255,0.95); color: var(--navy); }
+  .brother-info { padding: 12px; }
+  .brother-name { font-family: 'Cinzel', serif; font-size: 0.95em; font-weight: 700; color: var(--navy); margin-bottom: 4px; }
+  .brother-community { font-weight: 600; color: var(--gold); font-size: 0.8em; }
+  .brother-role { color: #666; font-size: 0.75em; margin-top: 3px; }
+</style>
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="brand">Brothers of Saint Gabriel<small>THAILAND PROVINCE</small></a>
+  <div class="links">
+    <a href="/">Home</a><a href="/about/">About</a><a href="/leadership/">Leadership</a><a href="/brothers/" class="active">Brothers</a><a href="/vocations/">Vocations</a><a href="/spirituality/">Spirituality</a><a href="/news/">News</a><a href="/in-memoriam/">In Memoriam</a><a href="/connect/">Connect</a><a href="/overview/">Overview</a>
+  </div>
+</nav>
+
+<section class="section" style="padding-bottom:0;">
+  <p class="small muted"><a href="/brothers/">← Back to Brothers</a></p>
+  <h2>BROTHERS · BY FIRST VOWS</h2>
+  <div class="line"></div>
+  <p class="lede">The Brothers organised by year of First Vows — marking each Brother's entry into religious commitment within the Institute. Newest professions appear first.</p>
+
+  <blockquote class="callout">
+    Out of pastoral discretion, individual birth dates are not published. The year of First Vows is shown as a public milestone of religious life.
+  </blockquote>
+</section>
+
+<div class="nav-tabs">
+  <a href="list.html" class="nav-tab">By Community</a>
+  <a href="by-vows.html" class="nav-tab active">By First Vows</a>
+  <a href="houses.html" class="nav-tab">Communities &amp; Houses</a>
+  <a href="transfers.html" class="nav-tab">Annual Obedience</a>
+</div>
+
+<div class="stats-bar">
+  <div class="stat-item"><div class="stat-number">68</div><div class="stat-label">Brothers</div></div>
+  <div class="stat-item"><div class="stat-number">34</div><div class="stat-label">Year Groups</div></div>
+  <div class="stat-item"><div class="stat-number">72</div><div class="stat-label">Years Span</div></div>
+</div>
+
+<section class="section">
+  <div id="content-area"></div>
+</section>
+
+<script>
+  const brothers = [
+            {"name": "Nattapong Wantaprom", "year": 2025, "community": "ACL", "role": "Member", "photo": "", "initials": "NW", "provincial": false, "provincialTitle": ""},
+            {"name": "Warut Waenphet", "year": 2023, "community": "ACU", "role": "Member", "photo": "/images/brothers/waenphet.png", "initials": "WW", "provincial": false, "provincialTitle": ""},
+            {"name": "Pakpoom Jaisamret", "year": 2023, "community": "SLC", "role": "Member & L. Bursar", "photo": "/images/brothers/jaisamret.png", "initials": "PJ", "provincial": false, "provincialTitle": ""},
+            {"name": "Sarawut Singyai", "year": 2023, "community": "SLJ", "role": "Socius & L. Bursar", "photo": "/images/brothers/singyai.png", "initials": "SS", "provincial": false, "provincialTitle": ""},
+            {"name": "Teerachai Charoensamran", "year": 2023, "community": "GPC", "role": "Member", "photo": "/images/brothers/charoensamran.png", "initials": "TC", "provincial": false, "provincialTitle": ""},
+            {"name": "Thanapoom Saiprom", "year": 2023, "community": "ACR", "role": "Member & L. Bursar", "photo": "/images/brothers/saiprom.png", "initials": "TS", "provincial": false, "provincialTitle": ""},
+            {"name": "Apisit Ngamwong", "year": 2023, "community": "AC/ACP", "role": "Member (ACP) & L. Bursar", "photo": "/images/brothers/ngamwong.png", "initials": "AN", "provincial": false, "provincialTitle": ""},
+            {"name": "Wanwasan Sukul", "year": 2020, "community": "ACEP", "role": "Member", "photo": "", "initials": "WS", "provincial": false, "provincialTitle": ""},
+            {"name": "Pongpat Wanse", "year": 2020, "community": "ATSN", "role": "Member & L. Bursar", "photo": "", "initials": "PW", "provincial": false, "provincialTitle": ""},
+            {"name": "Patcharapakorn Langbubpha", "year": 2019, "community": "AC/ACP", "role": "Member (AC)", "photo": "/images/brothers/langbubpha.JPG", "initials": "PL", "provincial": false, "provincialTitle": ""},
+            {"name": "Pathanant Chaiyara", "year": 2019, "community": "GPC", "role": "Member", "photo": "/images/brothers/chaiyara.JPG", "initials": "PC", "provincial": false, "provincialTitle": ""},
+            {"name": "Kornkavee Yindeevech", "year": 2019, "community": "ACSP", "role": "Member", "photo": "/images/brothers/yindeevech.JPG", "initials": "KY", "provincial": false, "provincialTitle": ""},
+            {"name": "Natton Suphon", "year": 2019, "community": "ACEP", "role": "Member & L. Bursar", "photo": "/images/brothers/suphon.JPG", "initials": "NS", "provincial": false, "provincialTitle": ""},
+            {"name": "Krissada Ngamwong", "year": 2019, "community": "ACS", "role": "Member & L. Bursar", "photo": "/images/brothers/ngamwong.JPG", "initials": "KN", "provincial": false, "provincialTitle": ""},
+            {"name": "Panuwat Mouentup", "year": 2019, "community": "ACSP", "role": "Member, Manager & L. Bursar", "photo": "/images/brothers/mouentup.JPG", "initials": "PM", "provincial": false, "provincialTitle": ""},
+            {"name": "Supharoek Singhaphan", "year": 2016, "community": "ACT", "role": "Member, Manager & L. Bursar", "photo": "/images/brothers/singhaphan.JPG", "initials": "SS", "provincial": false, "provincialTitle": ""},
+            {"name": "Palakorn Pianpan", "year": 2016, "community": "ACN", "role": "Member & L. Bursar", "photo": "/images/brothers/pianpan.JPG", "initials": "PP", "provincial": false, "provincialTitle": ""},
+            {"name": "Prajak Nansrithong", "year": 2014, "community": "ACL", "role": "Member & Bursar", "photo": "/images/brothers/nansrithong.jpg", "initials": "PN", "provincial": false, "provincialTitle": ""},
+            {"name": "Pittaya Tueaita", "year": 2014, "community": "ACS", "role": "Member", "photo": "/images/brothers/tueaita.JPG", "initials": "PT", "provincial": false, "provincialTitle": ""},
+            {"name": "Jamrus Kaewamka", "year": 2014, "community": "ATSN", "role": "Superior (2) cum Director (2)", "photo": "/images/brothers/kaewamka.JPG", "initials": "JK", "provincial": false, "provincialTitle": ""},
+            {"name": "Khanchit Seesawan", "year": 2014, "community": "ACN", "role": "Superior (1) cum Director (2)", "photo": "/images/brothers/seesawan.JPG", "initials": "KS", "provincial": false, "provincialTitle": ""},
+            {"name": "Charnnarong Boonpharm", "year": 2014, "community": "AU", "role": "", "photo": "", "initials": "CB", "provincial": false, "provincialTitle": ""},
+            {"name": "Rachanon Udomsungnern", "year": 2014, "community": "SLJ", "role": "Master of Juniors (1)", "photo": "/images/brothers/udomsungnern.JPG", "initials": "RU", "provincial": false, "provincialTitle": ""},
+            {"name": "Sirichai Phangrak", "year": 2010, "community": "ATSN", "role": "Member", "photo": "/images/brothers/phangrak.JPG", "initials": "SP", "provincial": false, "provincialTitle": ""},
+            {"name": "Witthaya Thepkom", "year": 2008, "community": "ACL", "role": "Superior (2) cum Director (2)", "photo": "/images/brothers/thepkom.JPG", "initials": "WT", "provincial": false, "provincialTitle": ""},
+            {"name": "Nontacha Srivilai", "year": 2007, "community": "MNS", "role": "Master of Novices (1)", "photo": "/images/brothers/srivilai.JPG", "initials": "NS", "provincial": false, "provincialTitle": ""},
+            {"name": "Kullachart Juntachoto", "year": 2007, "community": "SLC", "role": "Director (5)", "photo": "/images/brothers/juntachoto.JPG", "initials": "KJ", "provincial": false, "provincialTitle": ""},
+            {"name": "Sarawut Yuchompoo", "year": 2006, "community": "MC/MCP", "role": "Member (MC) & L. Bursar", "photo": "/images/brothers/yuchompoo.JPG", "initials": "SY", "provincial": false, "provincialTitle": ""},
+            {"name": "Kriangsak Mayod", "year": 2005, "community": "ACU", "role": "Superior (5) cum Director (5)", "photo": "/images/brothers/mayod.JPG", "initials": "KM", "provincial": false, "provincialTitle": ""},
+            {"name": "Sa-ard Vongsacharoenbhakdi", "year": 2005, "community": "GPC", "role": "Member", "photo": "/images/brothers/vongsacharoenbhakdi.JPG", "initials": "SV", "provincial": false, "provincialTitle": ""},
+            {"name": "Anuwat Wipakthamrongkun", "year": 2005, "community": "GPC", "role": "Member & L. Bursar", "photo": "/images/brothers/wipakthamrongkun.JPG", "initials": "AW", "provincial": false, "provincialTitle": ""},
+            {"name": "Pichitphon Buraphan", "year": 2004, "community": "ACU", "role": "Member, Manager & L. Bursar", "photo": "/images/brothers/buraphan.JPG", "initials": "PB", "provincial": false, "provincialTitle": ""},
+            {"name": "Manit Sakonthawat", "year": 2002, "community": "AC/ACP", "role": "Director ACP (2)", "photo": "/images/brothers/sakonthawat.JPG", "initials": "MS", "provincial": true, "provincialTitle": "Provincial Bursar"},
+            {"name": "Kittisak Charoensri", "year": 2002, "community": "MC/MCP", "role": "Member (MCP)", "photo": "/images/brothers/charoensri.JPG", "initials": "KC", "provincial": false, "provincialTitle": ""},
+            {"name": "Arwut Silaket", "year": 1999, "community": "SG", "role": "Member & L. Bursar", "photo": "/images/brothers/silaket.JPG", "initials": "AS", "provincial": false, "provincialTitle": ""},
+            {"name": "Siam Kaewprasith", "year": 1999, "community": "ACT", "role": "Member", "photo": "/images/brothers/kaewprasith.JPG", "initials": "SK", "provincial": false, "provincialTitle": ""},
+            {"name": "Prawat Sutthinont", "year": 1996, "community": "GPC", "role": "Member", "photo": "/images/brothers/sutthinont.JPG", "initials": "PS", "provincial": false, "provincialTitle": ""},
+            {"name": "Supanun Khantapreecha", "year": 1996, "community": "ACEP", "role": "Superior (1) cum Director (1)", "photo": "/images/brothers/khantapreecha.JPG", "initials": "SK", "provincial": true, "provincialTitle": "Provincial Councilor"},
+            {"name": "Verayuth Boonpram", "year": 1995, "community": "ACT", "role": "Director (2)", "photo": "/images/brothers/boonpram.JPG", "initials": "VB", "provincial": true, "provincialTitle": "Provincial Councilor"},
+            {"name": "Seksan Sakonthawat", "year": 1993, "community": "ACR", "role": "Director (2)", "photo": "/images/brothers/sakonthawat.JPG", "initials": "SS", "provincial": false, "provincialTitle": ""},
+            {"name": "Thaksabutr Kraiprasit", "year": 1991, "community": "MC/MCP", "role": "Superior (5) cum Director MCP (5)", "photo": "/images/brothers/kraiprasit.JPG", "initials": "TK", "provincial": false, "provincialTitle": ""},
+            {"name": "Thankorn Tansuwongs", "year": 1991, "community": "ACR", "role": "Superior (2)", "photo": "/images/brothers/tansuwongs.JPG", "initials": "TT", "provincial": false, "provincialTitle": ""},
+            {"name": "Monthol Prathumarach", "year": 1988, "community": "ACSP", "role": "Superior (5) cum Director (5)", "photo": "/images/brothers/prathumarach.JPG", "initials": "MP", "provincial": false, "provincialTitle": ""},
+            {"name": "Chamnan Laoruckphon", "year": 1988, "community": "MC/MCP", "role": "Director MC (5)", "photo": "/images/brothers/laoruckphon.JPG", "initials": "CL", "provincial": true, "provincialTitle": "Provincial Councilor"},
+            {"name": "Bhuvarindhara Khemrachanon", "year": 1988, "community": "SGS", "role": "Master of Scholastics (1)", "photo": "/images/brothers/khemrachanon.JPG", "initials": "BK", "provincial": false, "provincialTitle": ""},
+            {"name": "Pisutr Vapiso", "year": 1987, "community": "ACS", "role": "Director (5)", "photo": "/images/brothers/vapiso.JPG", "initials": "PV", "provincial": true, "provincialTitle": "Provincial Councilor"},
+            {"name": "Viharn Srihaphol", "year": 1987, "community": "SLC", "role": "Superior (2)", "photo": "/images/brothers/srihaphol.JPG", "initials": "VS", "provincial": false, "provincialTitle": ""},
+            {"name": "Phiranant Numkanisorn", "year": 1981, "community": "SG", "role": "Member", "photo": "/images/brothers/numkanisorn.JPG", "initials": "PN", "provincial": false, "provincialTitle": ""},
+            {"name": "Surakit Srisarankulwong", "year": 1981, "community": "SG", "role": "Director (5)", "photo": "/images/brothers/srisarankulwong.JPG", "initials": "SS", "provincial": true, "provincialTitle": "Provincial Superior"},
+            {"name": "Dechachai Sripicharn", "year": 1979, "community": "MHE", "role": "Supervisor", "photo": "/images/brothers/sripicharn.JPG", "initials": "DS", "provincial": false, "provincialTitle": ""},
+            {"name": "Anurak Nidhibhadrabhorn", "year": 1979, "community": "MHE", "role": "Director", "photo": "/images/brothers/nidhibhadrabhorn.JPG", "initials": "AN", "provincial": false, "provincialTitle": ""},
+            {"name": "Sirichai Fonseka", "year": 1976, "community": "AU", "role": "", "photo": "", "initials": "SF", "provincial": false, "provincialTitle": ""},
+            {"name": "Phiraphongs Darathai", "year": 1976, "community": "ACT", "role": "Member", "photo": "/images/brothers/darathai.JPG", "initials": "PD", "provincial": false, "provincialTitle": ""},
+            {"name": "Anant Prichavudhi", "year": 1973, "community": "AU", "role": "", "photo": "", "initials": "AP", "provincial": false, "provincialTitle": ""},
+            {"name": "Sunant Yotharaksa", "year": 1973, "community": "ACS", "role": "Member in Retirement", "photo": "/images/brothers/yotharaksa.JPG", "initials": "SY", "provincial": false, "provincialTitle": ""},
+            {"name": "Vicharn Saengharn", "year": 1972, "community": "MNS", "role": "Socius", "photo": "/images/brothers/saengharn.JPG", "initials": "VS", "provincial": false, "provincialTitle": ""},
+            {"name": "Achin Tengtrakul", "year": 1970, "community": "SG", "role": "Superior (2) & Manager", "photo": "/images/brothers/tengtrakul.JPG", "initials": "AT", "provincial": false, "provincialTitle": ""},
+            {"name": "Surasit Sukchai", "year": 1969, "community": "ACS", "role": "Superior (5)", "photo": "/images/brothers/sukchai.JPG", "initials": "SS", "provincial": false, "provincialTitle": ""},
+            {"name": "Chumpol Deesutchit", "year": 1965, "community": "ACS", "role": "Member in Retirement", "photo": "/images/brothers/deesutchit.jpg", "initials": "CD", "provincial": false, "provincialTitle": ""},
+            {"name": "Bancha Saenghiran", "year": 1965, "community": "AU", "role": "", "photo": "", "initials": "BS", "provincial": false, "provincialTitle": ""},
+            {"name": "Meesakdi Wongprachanukul", "year": 1965, "community": "SGS", "role": "Socius", "photo": "/images/brothers/wongprachanukul.JPG", "initials": "MW", "provincial": false, "provincialTitle": ""},
+            {"name": "Thinaratana Komkris", "year": 1964, "community": "GPC", "role": "Superior (1)", "photo": "/images/brothers/komkris.JPG", "initials": "TK", "provincial": false, "provincialTitle": ""},
+            {"name": "Amnuay Yoonprayong", "year": 1963, "community": "SLJ", "role": "Spiritual Guidance", "photo": "/images/brothers/yoonprayong.JPG", "initials": "AY", "provincial": false, "provincialTitle": ""},
+            {"name": "Visith Srivichairatana", "year": 1961, "community": "ACT", "role": "Superior (2)", "photo": "/images/brothers/srivichairatana.JPG", "initials": "VS", "provincial": false, "provincialTitle": ""},
+            {"name": "Anucha Karunprot", "year": 1959, "community": "ACN", "role": "Member in Retirement", "photo": "/images/brothers/karunprot.jpg", "initials": "AK", "provincial": false, "provincialTitle": ""},
+            {"name": "Prathip M. Komolmas", "year": 1954, "community": "AU", "role": "", "photo": "", "initials": "PM", "provincial": false, "provincialTitle": ""},
+            {"name": "Viriya Chandavarodom", "year": 1954, "community": "AC/ACP", "role": "Member in Retirement", "photo": "/images/brothers/chandavarodom.jpg", "initials": "VC", "provincial": false, "provincialTitle": ""},
+            {"name": "Siriroj Viriyasirimongkol", "year": 1953, "community": "SG", "role": "Member in Retirement", "photo": "/images/brothers/viriyasirimongkol.JPG", "initials": "SV", "provincial": false, "provincialTitle": ""}
+        ];
+  const groups = {};
+  brothers.forEach(b => {
+    if (!groups[b.year]) groups[b.year] = [];
+    groups[b.year].push(b);
+  });
+  const years = Object.keys(groups).map(y=>parseInt(y)).sort((a,b)=>b-a);
+
+  let html = '';
+  years.forEach(y => {
+    html += '<div class="group-section">';
+    html += '<h3 class="group-header">First Vows ' + y + ' &middot; ' + groups[y].length + ' Brother' + (groups[y].length>1?'s':'') + '</h3>';
+    html += '<div class="brothers-grid">';
+    groups[y].forEach(b => {
+      const photo = b.photo
+        ? '<img src="' + b.photo + '" class="brother-img" alt="' + b.name + '" loading="lazy">'
+        : '<div class="photo-placeholder">' + b.initials + '</div>';
+      const badge = b.provincial ? '<span class="brother-badge">' + (b.provincialTitle || 'Provincial') + '</span>' : '';
+      const yearBadge = '<span class="vow-year-badge">' + y + '</span>';
+      html += '<div class="brother-card">';
+      html += '<div class="brother-photo">' + photo + badge + yearBadge + '</div>';
+      html += '<div class="brother-info">';
+      html += '<div class="brother-name">Bro. ' + b.name + '</div>';
+      html += '<div class="brother-community">' + (b.community || '—') + '</div>';
+      html += '<div class="brother-role">' + (b.role || '') + '</div>';
+      html += '</div></div>';
+    });
+    html += '</div></div>';
+  });
+  document.getElementById('content-area').innerHTML = html;
+</script>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div><h4>BROTHERS OF SAINT GABRIEL</h4><p>Thailand Province · serving since 1901.</p></div>
+    <div><h4>SISTER SITES</h4><ul>
+      <li><a href="https://montfortian.net" target="_blank" rel="noopener">montfortian.net</a></li>
+      <li><a href="https://fsgthailand.org" target="_blank" rel="noopener">fsgthailand.org</a></li>
+      <li><a href="https://thaibrothers.net" target="_blank" rel="noopener">thaibrothers.net</a></li>
+    </ul></div>
+    <div><h4>NAVIGATE</h4><ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/leadership/">Leadership</a></li>
+      <li><a href="/vocations/">Vocations</a></li>
+      <li><a href="/connect/">Connect</a></li>
+    </ul></div>
+  </div>
+  <div class="credit">&copy; Brothers of Saint Gabriel, Thailand Province. Voice: Provincial Council. Source: First Vows data · Provincial Secretariat.</div>
+</footer>
+</body>
+</html>
